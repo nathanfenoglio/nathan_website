@@ -26,7 +26,7 @@ class Navbar extends Component{
 									{item.title}
 								</a>
 								*/}
-								
+								<Link to={item.url} className={item.cName}>{item.title}</Link>
 							</li>
 						)
 					})}
