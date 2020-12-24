@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import LiveAtAndys from "../../../public/Harry_at_Andys_Track_01.m4a";
+import LiveAtAndys from "../Harry_at_Andys_Track_01.m4a";
 
 export default class Music extends Component{
 	
