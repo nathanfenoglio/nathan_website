@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import LiveAtAndys from "../../../public/Harry_at_Andys_Track_01.m4a";
 
 export default class Music extends Component{
 	
@@ -28,6 +29,8 @@ export default class Music extends Component{
 					<iframe width="560" height="315" src="https://www.youtube.com/embed/apTxH9tEXhY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 					<br/>
 				</p>
+				
+				<audio ref="audio_tag" src={LiveAtAndys} controls autoPlay/>
 			</div>
 		)
 	}
