@@ -30,6 +30,15 @@ export default class Music extends Component{
 					<br/>
 				</p>
 				
+				<h2>Live at Andy's Denton, TX a Long Time Ago</h2>
+				<h4>2 Unreleased Tracks: </h4>
+				<li>Get that loot as reasonably fast as you can, let's go, hey?</li>
+				<li>Stealing crackers from the wheat farm</li>
+				<h4>Players:</h4>
+				<li>Guitar: Travis Laminack</li>
+				<li>Drums: Gabriel Pearson</li>
+				<li>Bass: Nathan Fenoglio</li>
+				<br/>
 				<audio ref="audio_tag" src={LiveAtAndys} controls autoPlay/>
 			</div>
 		)
