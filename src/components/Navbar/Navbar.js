@@ -11,11 +11,16 @@ class Navbar extends Component{
 				
 				</div>
 				<ul>
-					<li key={index}>
-						<a className={item.cName} href={item.url}>
-							{item.title}
-						</a>
-					</li>
+					{MenuItems.map((item, index) =>{
+						return(
+							<li key={index}>
+								<a className={item.cName} href={item.url}>
+									{item.title}
+								</a>
+							</li>
+						)
+					})}
+					
 				</ul>
 			</nav>
 		)
