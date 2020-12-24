@@ -29,14 +29,7 @@ class Navbar extends Component{
 					})}
 					
 				</ul>
-				<div>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
 				<Button>Sign Up</Button>
-				</div>
 			</nav>
 		)
 	}
