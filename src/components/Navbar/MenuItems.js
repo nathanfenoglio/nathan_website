@@ -5,22 +5,37 @@ export const MenuItems = [
 		cName: 'nav-links'
 	},
 	{
-		title: 'Services',
+		title: 'Music',
 		url: '#',
 		cName: 'nav-links'
 	},
 	{
-		title: 'Products',
+		title: 'Video',
 		url: '#',
 		cName: 'nav-links'
 	},
 	{
-		title: 'Contact Us',
+		title: 'Games',
 		url: '#',
 		cName: 'nav-links'
 	},
 	{
-		title: 'Sign up',
+		title: 'Code Projects',
+		url: '#',
+		cName: 'nav-links'
+	},
+	{
+		title: 'Web Apps',
+		url: '#',
+		cName: 'nav-links'
+	},
+	{
+		title: 'Misc',
+		url: '#',
+		cName: 'nav-links'
+	},
+	{
+		title: 'Contact',
 		url: '#',
 		cName: 'nav-links-mobile'
 	}
