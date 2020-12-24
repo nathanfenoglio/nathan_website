@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import LiveAtAndys from "../Harry_at_Andys_Track_01.m4a";
+import LiveAtAndysTrack1 from "../Harry_at_Andys_Track_01.m4a";
+import LiveAtAndysTrack2 from "../Harry_at_Andys_Track_02.m4a";
 
 export default class Music extends Component{
 	
@@ -39,7 +40,11 @@ export default class Music extends Component{
 				<li>Drums: Gabriel Pearson</li>
 				<li>Bass: Nathan Fenoglio</li>
 				<br/>
-				<audio ref="audio_tag" src={LiveAtAndys} controls autoPlay/>
+				<h5>Get that loot as reasonably fast as you can, let's go, hey?</h5>
+				<audio ref="audio_tag" src={LiveAtAndysTrack1} controls autoPlay/>
+				<br/>
+				<h5>Stealing crackers from the wheat farm</h5>
+				<audio ref="audio_tag" src={LiveAtAndysTrack2} controls autoPlay/>
 			</div>
 		)
 	}
