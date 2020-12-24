@@ -41,7 +41,7 @@ export default class Music extends Component{
 				<li>Bass: Nathan Fenoglio</li>
 				<br/>
 				<h5>Get that loot as reasonably fast as you can, let's go, hey?</h5>
-				<audio ref="audio_tag" src={LiveAtAndysTrack1} controls autoPlay="false"/>
+				<audio ref="audio_tag" src={LiveAtAndysTrack1} controls autoPlay="false" autostart="false"/>
 				<br/>
 				<h5>Stealing crackers from the wheat farm</h5>
 				<audio ref="audio_tag" src={LiveAtAndysTrack2} controls autoPlay/>
