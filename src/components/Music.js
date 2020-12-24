@@ -14,6 +14,10 @@ export default class Music extends Component{
 				</p>
 			
 				<h1>Harry Has a Head Like a Ping Pong Ball</h1>
+				<h2>Post Apocalyptic Time Travel Core</h2>
+				<li>Guitar: Travis Laminack</li>
+				<li>Drums: Dustin Adams</li>
+				<li>Bass: Nathan Fenoglio</li>
 				<p>
 					<iframe width="560" height="315" src="https://www.youtube.com/embed/nUqgGL8950c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 					<br/>
