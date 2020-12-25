@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import LiveAtAndysTrack1 from "../Harry_at_Andys_Track_01.m4a";
 import LiveAtAndysTrack2 from "../Harry_at_Andys_Track_02.m4a";
+import ParallelRealities_Reflection from "../Reflection.mp3";
 
 export default class Music extends Component{
 	
@@ -49,9 +50,21 @@ export default class Music extends Component{
 				<audio ref="audio_tag" src={LiveAtAndysTrack1} controls />
 				<br/>
 				<h5>Stealing crackers from the wheat farm</h5>
-				<audio ref="audio_tag" src={LiveAtAndysTrack2} controls autoPlay/>
+				<audio ref="audio_tag" src={LiveAtAndysTrack2} controls/>
 				
 				<h1>Parallel Realities</h1>
+				<h2>Self Titled</h2>
+				<h4>Players:</h4>
+				<li>Vocals: Rocio Herrera</li>
+				<li>Drum Set: Garrett Gross</li>
+				<li>Auxiliary Percussion: Eric Rogers</li>
+				<li>Keys: Sean Pollaro</li>
+				<li>Guitar: Chris Belknap</li>
+				<li>Bass: Nathan Fenoglio</li>
+				<br/>
+				<h5>Reflection</h5>
+				<audio ref="audio_tag" src={ParallelRealities_Reflection} controls/>
+				
 				<h2>Live at Haileys Denton, TX 2005</h2>
 				<h4>Players:</h4>
 				<li>Vocals: Rocio Herrera</li>
@@ -60,6 +73,7 @@ export default class Music extends Component{
 				<li>Keys: Sean Pollaro</li>
 				<li>Guitar: Chris Belknap</li>
 				<li>Bass: Nathan Fenoglio</li>
+				<br/><br/>
 				<iframe width="560" height="315" src="https://www.youtube.com/embed/Zp5jtLA8D2I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				
 				
