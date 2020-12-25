@@ -13,7 +13,7 @@ export default class Video_Games extends Component{
 				<Link to="/Cubeland_Solution_Path.mht">Cubeland Solution Path</Link>
 				<iframe className="docx" width="100%" height="600" frameborder="0" src="/Cubeland_Solution_Path.docx"></iframe>
 				*/}
-				<iframe src= "Cubeland_Solution_Path.mht" width="100%" height="800"> </iframe>
+				<iframe src= "/Cubeland_Solution_Path.mht" width="100%" height="800"> </iframe>
 			</div>
 		)
 	}
