@@ -22,7 +22,7 @@ class App extends Component{
 					<Route path="/Video_Games" exact component={Video_Games}/>
 					<Route path="/Cubeland_Solution_Path" exact component={Cubeland_Solution_Path}/>
 					<Route path="/Code_Projects" exact component={Code_Projects}/>
-					<Route path="Web_Apps" exact component={Web_Apps}/>
+					<Route path="/Web_Apps" exact component={Web_Apps}/>
 					<Route path="/Misc" exact component={Misc}/>
 					  <header className="App-header">
 					  {/*
