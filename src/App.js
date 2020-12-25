@@ -5,7 +5,7 @@ import './App.css';
 
 import Music from "./components/Music";
 import Video_Games from "./components/Video_Games";
-import Cubeland_Solution_Path from ".components/Cubeland_Solution_Path";
+import Cubeland_Solution_Path from "./components/Cubeland_Solution_Path";
 
 //function App() {
 class App extends Component{
