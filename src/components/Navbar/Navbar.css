@@ -132,6 +132,7 @@
 		background: #fff;
 		color: #6568F4;
 		transition: 250ms;
+		border-radius: 0;
 	}
 	
 	Button{
