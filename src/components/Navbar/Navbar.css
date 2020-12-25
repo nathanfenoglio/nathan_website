@@ -38,7 +38,8 @@
 }
 
 .nav-links:hover{
-	background-color: #6d76f7;
+	/*background-color: #6d76f7;*/
+	background-color: red;
 	border-radius: 4px;
 	transition: all 0.2s ease-out;
 }
@@ -132,7 +133,6 @@
 		background: #fff;
 		color: #6568F4;
 		transition: 250ms;
-		border-radius: 0;
 	}
 	
 	Button{
