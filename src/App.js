@@ -5,6 +5,7 @@ import './App.css';
 
 import Music from "./components/Music";
 import Video_Games from "./components/Video_Games";
+import Cubeland_Solution_Path from ".components/Cubeland_Solution_Path";
 
 //function App() {
 class App extends Component{
@@ -16,6 +17,7 @@ class App extends Component{
 					<br/>
 					<Route path="/Music" exact component={Music} />
 					<Route path="/Video_Games" exact component={Video_Games}/>
+					<Route path="/Cubeland_Solution_Path" exact component={Cubeland_Solution_Path}/>
 					  <header className="App-header">
 					  {/*
 						<p>
