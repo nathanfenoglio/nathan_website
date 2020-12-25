@@ -11,6 +11,10 @@ class Navbar extends Component{
 		this.setState({clicked: !this.state.clicked})
 	}
 	
+	handleMenuClick = () =>{
+		this.setState({clicked: !this.state.clicked})
+	}
+	
 	render(){
 		return(
 			<nav className="NavbarItems">
@@ -28,7 +32,7 @@ class Navbar extends Component{
 								</a>
 								*/}
 								{/*<Link to={item.url} className={item.cName}>{item.title}</Link>*/}
-								<NavLink to={item.url} className={item.cName} exact activeStyle={{color:'pink'}}>{item.title}</NavLink>
+								<NavLink to={item.url} className={item.cName} exact activeStyle={{color:'pink'}} onClick={this.handleMenuClick}>{item.title}</NavLink>
 							</li>
 						)
 					})}
