@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import LiveAtAndysTrack1 from "../Harry_at_Andys_Track_01.m4a";
 import LiveAtAndysTrack2 from "../Harry_at_Andys_Track_02.m4a";
 import ParallelRealities_Reflection from "../Reflection.mp3";
+import ParallelRealities_GiveMeOneGoodReason from "../Give_Me_One_Good_Reason.mp3";
+import ParallelRealities_Heartbeat from "../Heartbeat.mp3";
 
 export default class Music extends Component{
 	
@@ -64,6 +66,10 @@ export default class Music extends Component{
 				<br/>
 				<h5>Reflection</h5>
 				<audio ref="audio_tag" src={ParallelRealities_Reflection} controls/>
+				<h5>Give Me One Good Reason</h5>
+				<audio ref="audio_tag" src={ParallelRealities_GiveMeOneGoodReason} controls/>
+				<h5>Heartbeat</h5>
+				<audio ref="audio_tag" src={ParallelRealities_Heartbeat} controls/>
 				
 				<h2>Live at Haileys Denton, TX 2005</h2>
 				<h4>Players:</h4>
