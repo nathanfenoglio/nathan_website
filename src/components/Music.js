@@ -38,18 +38,31 @@ export default class Music extends Component{
 				
 				<h2>Live at Andy's Denton, TX a Long Time Ago</h2>
 				<h4>2 Unreleased Tracks: </h4>
-				<li>Get that loot as reasonably fast as you can, let's go, hey?</li>
-				<li>Stealing crackers from the wheat farm</li>
+				<li>Get That Loot Into the Bag as Reasonably Quick as You Can Let's go Hey</li>
+				<li>Stealing Crackers From the Wheat Farm</li>
 				<h4>Players:</h4>
 				<li>Guitar: Travis Laminack</li>
 				<li>Drums: Gabriel Pearson</li>
 				<li>Bass: Nathan Fenoglio</li>
 				<br/>
-				<h5>Get that loot as reasonably fast as you can, let's go, hey?</h5>
+				<h5>Get That Loot Into the Bag as Reasonably Quick as You Can Let's go Hey</h5>
 				<audio ref="audio_tag" src={LiveAtAndysTrack1} controls />
 				<br/>
 				<h5>Stealing crackers from the wheat farm</h5>
 				<audio ref="audio_tag" src={LiveAtAndysTrack2} controls autoPlay/>
+				
+				<h1>Parallel Realities</h1>
+				<h2>Live at Haileys Denton, TX 2005</h2>
+				<h4>Players:</h4>
+				<li>Vocals: Rocio Herrera</li>
+				<li>Drum Set: Garrett Gross</li>
+				<li>Auxiliary Percussion: Eric Rogers</li>
+				<li>Keys: Sean Pollaro</li>
+				<li>Guitar: Chris Belknap</li>
+				<li>Bass: Nathan Fenoglio</li>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/Zp5jtLA8D2I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				
+				
 			</div>
 		)
 	}
