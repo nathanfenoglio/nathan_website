@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import { MenuItems } from "./MenuItems";
 import { Button } from "../Button"
 import './Navbar.css';
@@ -27,7 +27,8 @@ class Navbar extends Component{
 									{item.title}
 								</a>
 								*/}
-								<Link to={item.url} className={item.cName}>{item.title}</Link>
+								{/*<Link to={item.url} className={item.cName}>{item.title}</Link>*/}
+								<NavLink to={item.url} className={item.cName} activeStyle={{color:'pink'}}>{item.title}</NavLink>
 							</li>
 						)
 					})}
