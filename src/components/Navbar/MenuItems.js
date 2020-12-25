@@ -10,33 +10,28 @@ export const MenuItems = [
 		cName: 'nav-links'
 	},
 	{
-		title: 'Video',
-		url: '#',
-		cName: 'nav-links'
-	},
-	{
-		title: 'Games',
-		url: '#',
+		title: 'Video Games',
+		url: '/Video_Games',
 		cName: 'nav-links'
 	},
 	{
 		title: 'Code Projects',
-		url: '#',
+		url: '/Code_Projects',
 		cName: 'nav-links'
 	},
 	{
 		title: 'Web Apps',
-		url: '#',
+		url: '/Web_Apps',
 		cName: 'nav-links'
 	},
 	{
 		title: 'Misc',
-		url: '#',
+		url: '/Misc',
 		cName: 'nav-links'
 	},
 	{
 		title: 'Contact',
-		url: '#',
+		url: '/Contact',
 		cName: 'nav-links-mobile'
 	}
 ]
