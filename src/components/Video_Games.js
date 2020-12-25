@@ -9,7 +9,7 @@ export default class Video_Games extends Component{
 				<h1>Escape From Underground Terrestrial Abyss</h1>
 				
 				<h3>Cubeland Solution Path</h3>
-				<h3 style={{color:'red'}}></h3>
+				<h3 style={{color:'red'}}>SPOILER ALERT</h3>
 				<h4>If you find yourself lost and don’t have the time to ponder the cube to get your keys back</h4>
 				<Link to="/Cubeland_Solution_Path">View Cubeland Solution Path</Link>
 				
