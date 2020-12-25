@@ -131,8 +131,6 @@
 	.nav-links-mobile:hover{
 		background: #fff;
 		color: #6568F4;
-		width: 1px;
-		border-radius: 0;
 		transition: 250ms;
 	}
 	

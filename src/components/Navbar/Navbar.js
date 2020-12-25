@@ -11,16 +11,12 @@ class Navbar extends Component{
 		this.setState({clicked: !this.state.clicked})
 	}
 	
-	handleMenuClick = () =>{
-		this.setState({clicked: !this.state.clicked})
-	}
-	
 	render(){
 		return(
 			<nav className="NavbarItems">
 				<h1 className="navbar-logo">Flimm<i className="fab fa-react"></i></h1>
 				<div className="menu-icon" onClick={this.handleClick}>
-					<i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
+					<i id="i-tag" className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
 				</div>
 				<ul className={this.state.clicked ? 'nav-menu active' : 'nav-menu'}>
 					{MenuItems.map((item, index) =>{
@@ -32,7 +28,7 @@ class Navbar extends Component{
 								</a>
 								*/}
 								{/*<Link to={item.url} className={item.cName}>{item.title}</Link>*/}
-								<NavLink to={item.url} className={item.cName} exact activeStyle={{color:'pink'}} onClick={this.handleClick}>{item.title}</NavLink>
+								<NavLink to={item.url} className={item.cName} exact activeStyle={{color:'pink'}} onClick={this.handleClick; i-tag.className='fas fa-bars'}>{item.title}</NavLink>
 							</li>
 						)
 					})}
