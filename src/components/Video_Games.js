@@ -11,7 +11,7 @@ export default class Video_Games extends Component{
 				
 				<h3>Cubeland Solution Path</h3>
 				<Link to="../Cubeland_Solution_Path.htm">Cubeland Solution Path</Link>
-				<iframe className={filetype} width="100%" height="600" frameborder="0" src={`https://docs.google.com/gview?url=${file_url}&embedded=true`}></iframe>
+				<iframe className=".docx" width="100%" height="600" frameborder="0" src="./Cubeland_Solution_Path.docx"></iframe>
 			</div>
 		)
 	}
