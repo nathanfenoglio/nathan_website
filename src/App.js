@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import './App.css';
 
 import Music from "./components/Music";
+import Video_Games from "./components/Video_Games";
 
 //function App() {
 class App extends Component{
@@ -14,6 +15,7 @@ class App extends Component{
 					<Navbar />
 					<br/>
 					<Route path="/Music" exact component={Music} />
+					<Route path="/Video_Games" exact component={Video_Games}/>
 					  <header className="App-header">
 					  {/*
 						<p>
