@@ -12,38 +12,6 @@ import Code_Projects from "./components/Code_Projects";
 import Web_Apps from "./components/Web_Apps";
 import Misc from "./components/Misc";
 
-import image_1 from "/images/My_Face_186.png";
-
-const slideImages = [
-  '/src/My_Face_186.png',
-  '/src/My_Face_187.png',
-  '/src/My_Face_188.png'
-];
-
-const Slideshow = () => {
-    return (
-      <div className="slide-container">
-        <Slide>
-          <div className="each-slide">
-            <div style={{'backgroundImage': {image_1}}}>
-              <span>Slide 1</span>
-            </div>
-          </div>
-          <div className="each-slide">
-            <div style={{'backgroundImage': `url(${slideImages[1]})`}}>
-              <span>Slide 2</span>
-            </div>
-          </div>
-          <div className="each-slide">
-            <div style={{'backgroundImage': `url(${slideImages[2]})`}}>
-              <span>Slide 3</span>
-            </div>
-          </div>
-        </Slide>
-      </div>
-    )
-}
-
 //function App() {
 class App extends Component{
 	render(){
