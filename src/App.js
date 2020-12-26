@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Navbar from "./components/Navbar/Navbar";
 import { BrowserRouter as Router, Route } from "react-router-dom";
+import { Slide } from "react-slideshow-image";
 import './App.css';
 
 import Music from "./components/Music";
@@ -9,6 +10,13 @@ import Cubeland_Solution_Path from "./components/Cubeland_Solution_Path";
 import Code_Projects from "./components/Code_Projects";
 import Web_Apps from "./components/Web_Apps";
 import Misc from "./components/Misc";
+
+
+const slideImages = [
+	'My_Face_186.png',
+	'My_Face_187.png',
+	'My_Face_188.png'
+];
 
 //function App() {
 class App extends Component{
@@ -25,6 +33,7 @@ class App extends Component{
 					<Route path="/Web_Apps" exact component={Web_Apps}/>
 					<Route path="/Misc" exact component={Misc}/>
 					  <header className="App-header">
+					  
 					  {/*
 						<p>
 							<br/><br/><br/>
@@ -32,6 +41,8 @@ class App extends Component{
 							<iframe width="560" height="315" src="https://www.youtube.com/embed/5Vk0QhhUjtM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 						</p>
 					  */}
+					  
+					  
 						<a>Flamm</a>
 					  </header>
 				</div>
