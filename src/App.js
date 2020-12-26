@@ -13,7 +13,7 @@ import Web_Apps from "./components/Web_Apps";
 import Misc from "./components/Misc";
 
 const slideImages = [
-  '/src/My_Face_186.png',
+  '/src/My_Face_186.PNG',
   '/src/My_Face_187.png',
   '/src/My_Face_188.png'
 ];
