@@ -13,9 +13,9 @@ import Web_Apps from "./components/Web_Apps";
 import Misc from "./components/Misc";
 
 const slideImages = [
-  './My_Face_186.png',
-  './My_Face_187.png',
-  './My_Face_188.png'
+  '/src/My_Face_186.png',
+  '/src/My_Face_187.png',
+  '/src/My_Face_188.png'
 ];
 
 const Slideshow = () => {
