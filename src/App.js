@@ -12,7 +12,7 @@ import Code_Projects from "./components/Code_Projects";
 import Web_Apps from "./components/Web_Apps";
 import Misc from "./components/Misc";
 
-import image_1 from "/My_Face_186.png"
+import image_1 from "./My_Face_186.png"
 const slideImages = [
   '/src/My_Face_186.png',
   '/src/My_Face_187.png',
