@@ -18,6 +18,17 @@ const slideImages = [
 	'My_Face_188.png'
 ];
 
+const properties = {
+	duration: 5000,
+	transitionDuration: 500,
+	infinite: true,
+	indicators: true,
+	arrows: true,
+	onChange: (oldIndex, newIndex) => {
+		console.log(`slide transition from ${oldIndex} to ${newIndex}`);
+	}
+}
+
 //function App() {
 class App extends Component{
 	render(){
