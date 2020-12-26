@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import Navbar from "./components/Navbar/Navbar";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import './App.css';
+import { Slide } from 'react-slideshow-image';
+import 'react-slideshow-image/dist/styles.css'
 
 import Music from "./components/Music";
 import Video_Games from "./components/Video_Games";
@@ -10,7 +12,35 @@ import Code_Projects from "./components/Code_Projects";
 import Web_Apps from "./components/Web_Apps";
 import Misc from "./components/Misc";
 
-import Slideshow from "./components/Slideshow";
+const slideImages = [
+  './My_Face_186.png',
+  './My_Face_187.png',
+  './My_Face_188.png'
+];
+
+const Slideshow = () => {
+    return (
+      <div className="slide-container">
+        <Slide>
+          <div className="each-slide">
+            <div style={{'backgroundImage': `url(${slideImages[0]})`}}>
+              <span>Slide 1</span>
+            </div>
+          </div>
+          <div className="each-slide">
+            <div style={{'backgroundImage': `url(${slideImages[1]})`}}>
+              <span>Slide 2</span>
+            </div>
+          </div>
+          <div className="each-slide">
+            <div style={{'backgroundImage': `url(${slideImages[2]})`}}>
+              <span>Slide 3</span>
+            </div>
+          </div>
+        </Slide>
+      </div>
+    )
+}
 
 //function App() {
 class App extends Component{
@@ -36,7 +66,7 @@ class App extends Component{
 						</p>
 					  */}
 					  
-					  <Slideshow/>
+					  
 						<a>Flamm</a>
 					  </header>
 					  
