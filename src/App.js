@@ -66,10 +66,10 @@ class App extends Component{
 						</p>
 					  */}
 					  
-					  
+						
 						<a>Flamm</a>
 					  </header>
-					  
+					<Slideshow />
 					
 				</div>
 			</Router>
