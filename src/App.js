@@ -13,9 +13,9 @@ import Misc from "./components/Misc";
 
 
 const slideImages = [
-	'images/My_Face_186.png',
-	'images/My_Face_187.png',
-	'images/My_Face_188.png'
+	'.images/My_Face_186.png',
+	',images/My_Face_187.png',
+	'.images/My_Face_188.png'
 ];
 
 const properties = {
