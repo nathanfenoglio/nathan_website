@@ -22,6 +22,7 @@ export default class Slideshow extends Component{
 	render(){
 		return (
 			<div className="slide-container">
+				<h1>Can you hear me?</h1>
 				<Slide {...properties}>
 					<div className="each-slide">
 						<div style={{'backgroundImage': `url(${slideImages[0]})`}}>
