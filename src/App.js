@@ -11,13 +11,13 @@ import Code_Projects from "./components/Code_Projects";
 import Web_Apps from "./components/Web_Apps";
 import Misc from "./components/Misc";
 
-
+/*
 const slideImages = [
 	'.images/My_Face_186.png',
 	'.images/My_Face_187.png',
 	'.images/My_Face_188.png'
 ];
-
+*/
 const properties = {
 	duration: 5000,
 	transitionDuration: 500,
@@ -60,7 +60,7 @@ class App extends Component{
 					<div className="slide-container">
 						<Slide {...properties}>
 							<div className="each-slide">
-								<div style={{'backgroundImage': `url(${slideImages[0]})`}}>
+								<div style={{'backgroundImage': "images/My_Face_186.png"}}>
 									<span>Slide 1</span>
 								</div>
 							</div>
