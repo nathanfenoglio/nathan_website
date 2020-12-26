@@ -11,9 +11,9 @@ import Code_Projects from "./components/Code_Projects";
 import Web_Apps from "./components/Web_Apps";
 import Misc from "./components/Misc";
 
-import Image_1 from ".images/My_Face_186.png";
-import Image_2 from ".images/My_Face_187.png";
-import Image_3 from ".images/My_Face_188.png";
+import Image_1 from "./images/My_Face_186.png";
+import Image_2 from "./images/My_Face_187.png";
+import Image_3 from "./images/My_Face_188.png";
 
 /*
 const slideImages = [
