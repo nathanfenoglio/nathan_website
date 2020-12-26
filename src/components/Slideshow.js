@@ -29,6 +29,7 @@ export default class Slideshow extends Component{
 							<span>Slide 1</span>
 						</div>
 					</div>
+					<h1>Can you hear me?</h1>
 					<div className="each-slide">
 						<div style={{'backgroundImage': `url(${slideImages[1]})`}}>
 							<span>Slide 2</span>
