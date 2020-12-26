@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import Navbar from "./components/Navbar/Navbar";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import './App.css';
-import { Slide } from 'react-slideshow-image';
-import 'react-slideshow-image/dist/styles.css'
 
 import Music from "./components/Music";
 import Video_Games from "./components/Video_Games";
@@ -39,7 +37,6 @@ class App extends Component{
 						
 						<a>Flamm</a>
 					  </header>
-					<Slideshow />
 					
 				</div>
 			</Router>
