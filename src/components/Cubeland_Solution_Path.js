@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 export default class Cubeland_Solution_Path extends Component{
 	render(){
 		return(
-			<div>
+			<div style={{paddingLeft: 32}}>
 				<p style={{textAlign: 'left'}}><strong>SPOILER ALERT </strong></p>
         <p style={{textAlign: 'left'}}>(If you find yourself lost and don’t have the time to ponder the cube to get your keys back)</p>
         <p style={{textAlign: 'left'}}>&nbsp;</p>
