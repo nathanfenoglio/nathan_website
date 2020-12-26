@@ -18,7 +18,7 @@ const properties = {
 	}
 }
 
-export default Slideshow extends Component{
+export default class Slideshow extends Component{
 	render(){
 		return (
 			<div className="slide-container">
