@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Navbar from "./components/Navbar/Navbar";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import { Slide } from "react-slideshow-image";
 import './App.css';
 
 import Music from "./components/Music";
@@ -11,27 +10,7 @@ import Code_Projects from "./components/Code_Projects";
 import Web_Apps from "./components/Web_Apps";
 import Misc from "./components/Misc";
 
-import Image_1 from "./My_Face_186.PNG";
-import Image_2 from "./My_Face_187.PNG";
-import Image_3 from "./My_Face_188.PNG";
-
-/*
-const slideImages = [
-	'.images/My_Face_186.png',
-	'.images/My_Face_187.png',
-	'.images/My_Face_188.png'
-];
-*/
-const properties = {
-	duration: 5000,
-	transitionDuration: 500,
-	infinite: true,
-	indicators: true,
-	arrows: true,
-	onChange: (oldIndex, newIndex) => {
-		console.log(`slide transition from ${oldIndex} to ${newIndex}`);
-	}
-}
+import Slideshow from "./components/Slideshow";
 
 //function App() {
 class App extends Component{
@@ -57,29 +36,11 @@ class App extends Component{
 						</p>
 					  */}
 					  
-					  
+					  <Slideshow/>
 						<a>Flamm</a>
 					  </header>
 					  
-					<div className="slide-container">
-						<Slide {...properties}>
-							<div className="each-slide">
-								<div style={{'backgroundImage': {Image_1}}}>
-									<span>Slide 1</span>
-								</div>
-							</div>
-							<div className="each-slide">
-								<div style={{'backgroundImage': {Image_2}}}>
-									<span>Slide 2</span>
-								</div>
-							</div>
-							<div className="each-slide">
-								<div style={{'backgroundImage': {Image_3}}}>
-									<span>Slide 3</span>
-								</div>
-							</div>
-						</Slide>
-					</div>
+					
 				</div>
 			</Router>
 		  );
