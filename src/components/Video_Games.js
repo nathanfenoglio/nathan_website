@@ -9,7 +9,7 @@ export default class Video_Games extends Component{
 				<h1 style={{color: 'white', fontSize:200}}>Video Games</h1>
 				<br/><br/><br/>
 				<h1 style={{color: 'red', fontSize:100}}>Escape From Underground Terrestrial Abyss</h1>
-				<img src={title_screenshot_escape_from_uta}/>
+				<img style= {{flex:1 , width: undefined, height: undefined}} src={title_screenshot_escape_from_uta}/>
 				<h4 style={{color: 'yellow', fontSize: 75}}>Development Team:</h4>
 				<li style={{color: 'yellow', fontSize: 60}}>Samuel Schreiner</li>
 				<li style={{color: 'yellow', fontSize: 60}}>Hoang Ho</li>
