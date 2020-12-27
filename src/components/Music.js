@@ -11,11 +11,27 @@ export default class Music extends Component{
 		return(
 			<div>
 				<h1>Music stuff</h1>
+				<br/><br/><br/>
+				<h1 style={{color: 'red'}}>Solo Electronic Music Pursuits</h1>
 				<p>
-					<br/><br/><br/>
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/jTS6Jh6uF40" frameborder="10" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 					<br/>
+					<h3 style={{color: 'green'}}>Time to Travel, Face It</h3>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/jTS6Jh6uF40" frameborder="10" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<br/><br/><br/>
+					<h3 style={{color: 'green'}}>This Is It</h3>
 					<iframe width="560" height="315" src="https://www.youtube.com/embed/5Vk0QhhUjtM" frameborder="10" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<br/><br/><br/>
+					<h3 style={{color: 'green'}}>A Lightbulb Attached to His Head Lights Up</h3>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/q8iOnHRrHpk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<br/><br/><br/>
+					<h3 style={{color: 'green'}}>Rubiks Cuban</h3>
+					<iframe
+					   frameborder="0"
+					   width="500"
+					   height="100"
+					   src="https://drive.google.com/file/d/15CwM3d4vTSsdbxBjLVnU_ZIdm0irdMwN/preview?usp=sharing">
+					</iframe>
+					<br/><br/><br/>
 				</p>
 			
 				<h1>Harry Has a Head Like a Ping Pong Ball</h1>
