@@ -11,12 +11,15 @@ import Code_Projects from "./components/Code_Projects";
 import Web_Apps from "./components/Web_Apps";
 import Misc from "./components/Misc";
 
+/* COMMENTING OUT SLIDESHOW CAROUSEL FOR NOW, BUT IT'S WORKING IF YOU WANT TO UNCOMMENT*/
+/*
 import image_1 from "./images/green.jpg";
 import image_2 from "./images/yellow.jpg";
 import image_3 from "./images/red.jpg";
 import image_4 from "./images/blue.jpg";
 import image_5 from "./images/orange.jpg";
 import image_6 from "./images/white.jpg";
+*/
 
 import me_on_a_bridge_travis_pic from "./images/Me_Fort_Worth_Bridge_Travis_Pic.jpg";
 
@@ -25,7 +28,7 @@ class App extends Component{
 	render(){
 		  return (
 			<Router>
-				<div style={{ backgroundImage: `url(${me_on_a_bridge_travis_pic})` }} className="App">
+				<div style={{ backgroundPosition: 'center', backgroundImage: `url(${me_on_a_bridge_travis_pic})` }} className="App">
 					<Navbar />
 					<br/>
 					<Route path="/Music" exact component={Music} />
@@ -34,19 +37,10 @@ class App extends Component{
 					<Route path="/Code_Projects" exact component={Code_Projects}/>
 					<Route path="/Web_Apps" exact component={Web_Apps}/>
 					<Route path="/Misc" exact component={Misc}/>
-					  <header className="App-header">
-					  
-					  {/*
-						<p>
-							<br/><br/><br/>
-						  <iframe width="560" height="315" src="https://www.youtube.com/embed/jTS6Jh6uF40" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-							<iframe width="560" height="315" src="https://www.youtube.com/embed/5Vk0QhhUjtM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-						</p>
-					  */}
-					  
-						
-						<a>Flamm</a>
-					  </header>
+					<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+					<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+					  {/* COMMENTING OUT SLIDESHOW CAROUSEL FOR NOW, BUT IT'S WORKING IF YOU WANT TO UNCOMMENT*/}
+					  {/* 
 						<Carousel interval={1000}>
 							<Carousel.Item>
 								<img
@@ -121,7 +115,7 @@ class App extends Component{
 								</Carousel.Caption>
 							</Carousel.Item>
 						</Carousel>
-					
+					  */}
 				</div>
 			</Router>
 		  );
