@@ -15,7 +15,7 @@ class Navbar extends Component{
 		return(
 			<nav className="NavbarItems">
 				<h1 style={{fontSize:46}} className="navbar-logo">Nathan Fenoglio</h1>
-				<br/><br/>
+				
 				<div className="menu-icon" onClick={this.handleClick}>
 					<i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
 				</div>
