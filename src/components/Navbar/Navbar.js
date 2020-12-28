@@ -14,7 +14,7 @@ class Navbar extends Component{
 	render(){
 		return(
 			<nav className="NavbarItems">
-				<h1 className="navbar-logo">Nathan Fenoglio<i className="fab fa-react"></i></h1>
+				<h1 style={{fontSize:46}} className="navbar-logo">Nathan Fenoglio</h1>
 				<div className="menu-icon" onClick={this.handleClick}>
 					<i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
 				</div>
@@ -28,7 +28,7 @@ class Navbar extends Component{
 								</a>
 								*/}
 								{/*<Link to={item.url} className={item.cName}>{item.title}</Link>*/}
-								<NavLink to={item.url} className={item.cName} exact activeStyle={{color:'pink'}} onClick={this.handleClick}>{item.title}</NavLink>
+								<NavLink to={item.url} className={item.cName} style={{fontSize: 35}} exact activeStyle={{color:'pink'}} onClick={this.handleClick}>{item.title}</NavLink>
 							</li>
 						)
 					})}

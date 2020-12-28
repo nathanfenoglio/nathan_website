@@ -10,7 +10,7 @@ export default class Music extends Component{
 	render(){
 		return(
 			<div>
-				<h1 style={{color: 'white', fontSize:200}}>Music Pursuits</h1>
+				<h1 style={{color: 'white', fontSize:200}}>Musical Pursuits</h1>
 				<br/><br/><br/>
 				<h1 style={{color: 'red', fontSize:100}}>Solo Electronic Music</h1>
 				<p>
@@ -23,6 +23,9 @@ export default class Music extends Component{
 					<br/><br/><br/>
 					<h3 style={{color: 'yellow'}}>A Lightbulb Attached to His Head Lights Up</h3>
 					<iframe width="560" height="315" src="https://www.youtube.com/embed/q8iOnHRrHpk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<br/><br/><br/>
+					<h3 style={{color: 'yellow'}}>Let's Have a Look In Here Why Don't We</h3>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/eKb4dW4DtT4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 					<br/><br/><br/>
 					<h3 style={{color: 'yellow'}}>Rubiks Cuban</h3>
 					<iframe
