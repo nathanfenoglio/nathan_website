@@ -5,7 +5,7 @@ import title_screenshot_escape_from_uta from "../images/Title_Screen_Screenshot.
 export default class Video_Games extends Component{
 	render(){
 		return(
-			<div>
+			<div style={{marginTop: '100px'}}>
 				<h1 style={{color: 'white', fontSize:200}}>Video Games</h1>
 				<br/><br/><br/>
 				<h1 style={{color: 'red', fontSize:100}}>Escape From Underground Terrestrial Abyss</h1>

@@ -28,7 +28,7 @@ class App extends Component{
 	render(){
 		  return (
 			<Router>
-				<div style={{ backgroundPosition: 'center', backgroundImage: `url(${me_on_a_bridge_travis_pic})` }} className="App">
+				<div style={{ backgroundImage: `url(${me_on_a_bridge_travis_pic})` }} className="App">
 					<Navbar />
 					<br/>
 					<Route path="/Music" exact component={Music} />
@@ -37,8 +37,7 @@ class App extends Component{
 					<Route path="/Code_Projects" exact component={Code_Projects}/>
 					<Route path="/Web_Apps" exact component={Web_Apps}/>
 					<Route path="/Misc" exact component={Misc}/>
-					<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-					<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+					
 					  {/* COMMENTING OUT SLIDESHOW CAROUSEL FOR NOW, BUT IT'S WORKING IF YOU WANT TO UNCOMMENT*/}
 					  {/* 
 						<Carousel interval={1000}>
