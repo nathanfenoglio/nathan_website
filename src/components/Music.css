@@ -6,40 +6,85 @@
 }
 
 .page-title{
-    font-size: 15vw;
+    font-size: 10vw;
     color: white;
 }
 
 .band{
     color: red;
-    font-size: 7.5vw;
+    font-size: 5vw;
 }
 
 .album-title{
     color: fuchsia;
-    font-size: 6vw;
+    font-size: 4vw;
 }
 
 .players{
     color: yellow;
-    font-size: 4.5vw;
+    font-size: 3vw;
     list-style-type: none;
 }
 
 .song-title{
     margin-top: 3em;
+    margin-bottom: 1em;
     text-decoration: underline overline;
     text-decoration-color: red;
     color: yellow;
-    font-size: 4.5vw;
+    font-size: 3vw;
 }
 
 .youtube-link{
-    width: 60vw;
-    height: 60vw;
+    width: 40vw;
+    height: 27vw;
 }
 
 .audio-link{
-    width: 60vw;
-    height: 15vw;
+    width: 40vw;
+    height: 7vw;
+}
+
+/*conditional to check media and change stuff if less than 600px*/
+@media(max-width: 600px){
+    .page-title{
+        font-size: 15vw;
+        color: white;
+    }
+    
+    .band{
+        color: red;
+        font-size: 7.5vw;
+    }
+    
+    .album-title{
+        color: fuchsia;
+        font-size: 6vw;
+    }
+    
+    .players{
+        color: yellow;
+        font-size: 4.5vw;
+        list-style-type: none;
+    }
+    
+    .song-title{
+        margin-top: 3em;
+        margin-bottom: 1em;
+        text-decoration: underline overline;
+        text-decoration-color: red;
+        color: yellow;
+        font-size: 4.5vw;
+    }
+    
+    .youtube-link{
+        width: 60vw;
+        height: 40vw;
+    }
+    
+    .audio-link{
+        width: 60vw;
+        height: 10.5vw;
+    }
+        
 }
