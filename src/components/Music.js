@@ -31,6 +31,8 @@ export default class Music extends Component{
 					<h3 className="song-title">Rubiks Cuban</h3>
 					<iframe className="audio-link"
 					   frameborder="0"
+					   width="50vw"
+					   height="15"
 					   src="https://drive.google.com/file/d/15CwM3d4vTSsdbxBjLVnU_ZIdm0irdMwN/preview?usp=sharing">
 					</iframe>
 					<br/><br/><br/>
