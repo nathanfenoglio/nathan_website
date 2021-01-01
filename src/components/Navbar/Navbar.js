@@ -29,7 +29,7 @@ class Navbar extends Component{
 								</a>
 								*/}
 								{/*<Link to={item.url} className={item.cName}>{item.title}</Link>*/}
-								<NavLink to={item.url} className={item.cName} style={{fontSize: "3vw"}} exact activeStyle={{color:'pink'}} onClick={this.handleClick}>{item.title}</NavLink>
+								<NavLink to={item.url} className={item.cName} exact activeStyle={{color:'pink'}} onClick={this.handleClick}>{item.title}</NavLink>
 							</li>
 						)
 					})}
