@@ -16,23 +16,21 @@ export default class Music extends Component{
 				<h1 className="band">Solo Electronic Music</h1>
 				<p>
 					<br/>
-					<h3 style={{color: 'yellow'}}>Time to Travel, Face It</h3>
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/jTS6Jh6uF40" frameborder="10" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<h3 className="song-title" className="song-title">Time to Travel, Face It</h3>
+					<iframe className="youtube-link" src="https://www.youtube.com/embed/jTS6Jh6uF40" frameborder="10" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 					<br/><br/><br/>
-					<h3 style={{color: 'yellow'}}>This Is It</h3>
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/5Vk0QhhUjtM" frameborder="10" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<h3 className="song-title">This Is It</h3>
+					<iframe className="youtube-link" src="https://www.youtube.com/embed/5Vk0QhhUjtM" frameborder="10" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 					<br/><br/><br/>
-					<h3 style={{color: 'yellow'}}>A Lightbulb Attached to His Head Lights Up</h3>
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/q8iOnHRrHpk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<h3 className="song-title">A Lightbulb Attached to His Head Lights Up</h3>
+					<iframe className="youtube-link" src="https://www.youtube.com/embed/q8iOnHRrHpk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 					<br/><br/><br/>
-					<h3 style={{color: 'yellow'}}>Let's Have a Look In Here Why Don't We</h3>
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/eKb4dW4DtT4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<h3 className="song-title">Let's Have a Look In Here Why Don't We</h3>
+					<iframe className="youtube-link" src="https://www.youtube.com/embed/eKb4dW4DtT4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 					<br/><br/><br/>
-					<h3 style={{color: 'yellow'}}>Rubiks Cuban</h3>
-					<iframe
+					<h3 className="song-title">Rubiks Cuban</h3>
+					<iframe className="audio-link"
 					   frameborder="0"
-					   width="500"
-					   height="100"
 					   src="https://drive.google.com/file/d/15CwM3d4vTSsdbxBjLVnU_ZIdm0irdMwN/preview?usp=sharing">
 					</iframe>
 					<br/><br/><br/>
@@ -47,35 +45,35 @@ export default class Music extends Component{
 				</ul>
 				<p>
 					<br/>
-					<h3 style={{color:'yellow'}}>Skullhead</h3>
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/nUqgGL8950c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<h3 className="song-title">Skullhead</h3>
+					<iframe className="youtube-link" src="https://www.youtube.com/embed/nUqgGL8950c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 					<br/>
-					<h3 style={{color: 'yellow'}}>Rootbeerrun</h3>
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/AkpB8N6afDw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<h3 className="song-title">Rootbeerrun</h3>
+					<iframe className="youtube-link" src="https://www.youtube.com/embed/AkpB8N6afDw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 					<br/>
-					<h3 style={{color: 'yellow'}}>Walter Cronkite Goes Fishin'</h3>
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/QN8Dvm9QMUU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<h3 className="song-title">Walter Cronkite Goes Fishin'</h3>
+					<iframe className="youtube-link" src="https://www.youtube.com/embed/QN8Dvm9QMUU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 					<br/>
-					<h3 style={{color: 'yellow'}}>Send in Mcgraw</h3>
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/apTxH9tEXhY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<h3 className="song-title">Send in Mcgraw</h3>
+					<iframe className="youtube-link" src="https://www.youtube.com/embed/apTxH9tEXhY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 					<br/>
 				</p>
 				
 				<h2 className="album-title">Live at Andy's Denton, TX a Long Time Ago</h2>
-				<h4 style={{color: 'white'}}>2 Unreleased Tracks: </h4>
-				<li style={{color: 'white'}}>Get That Loot Into the Bag as Reasonably Quick as You Can Let's go Hey</li>
-				<li style={{color: 'white'}}>Stealing Crackers From the Wheat Farm</li>
+				<h4 className="players" style={{color: "white"}}>2 Unreleased Tracks: </h4>
+				<li className="players" style={{color: "white"}}>Get That Loot Into the Bag as Reasonably Quick as You Can Let's go Hey</li>
+				<li className="players" style={{color: "white"}}>Stealing Crackers From the Wheat Farm</li>
 				<ul className="players">
 					<li>Guitar: Travis Laminack</li>
 					<li>Drums: Gabriel Pearson</li>
 					<li>Bass: Nathan Fenoglio</li>
 				</ul>
 				<br/>
-				<h3 style={{color: 'yellow'}}>Get That Loot Into the Bag as Reasonably Quick as You Can Let's go Hey</h3>
-				<audio ref="audio_tag" src={LiveAtAndysTrack1} controls />
+				<h3 className="song-title">Get That Loot Into the Bag as Reasonably Quick as You Can Let's go Hey</h3>
+				<audio className="audio-link" ref="audio_tag" src={LiveAtAndysTrack1} controls />
 				<br/>
-				<h3 style={{color: 'yellow'}}>Stealing crackers from the wheat farm</h3>
-				<audio ref="audio_tag" src={LiveAtAndysTrack2} controls/>
+				<h3 className="song-title">Stealing crackers from the wheat farm</h3>
+				<audio className="audio-link" ref="audio_tag" src={LiveAtAndysTrack2} controls/>
 				
 				<h1 className="band" style={{fontSize: "8vw"}}>Parallel Realities</h1>
 				<h2 className="album-title">Self Titled</h2>
@@ -88,14 +86,14 @@ export default class Music extends Component{
 					<li>Bass: Nathan Fenoglio</li>
 				</ul>
 				<br/><br/>
-				<h3 style={{color: 'yellow'}}>Reflection</h3>
-				<audio ref="audio_tag" src={ParallelRealities_Reflection} controls/>
+				<h3 className="song-title">Reflection</h3>
+				<audio className="audio-link" ref="audio_tag" src={ParallelRealities_Reflection} controls/>
 				<br/><br/>
-				<h3 style={{color: 'yellow'}}>Give Me One Good Reason</h3>
-				<audio ref="audio_tag" src={ParallelRealities_GiveMeOneGoodReason} controls/>
+				<h3 className="song-title">Give Me One Good Reason</h3>
+				<audio className="audio-link" ref="audio_tag" src={ParallelRealities_GiveMeOneGoodReason} controls/>
 				<br/><br/>
-				<h3 style={{color: 'yellow'}}>Heartbeat</h3>
-				<audio ref="audio_tag" src={ParallelRealities_Heartbeat} controls/>
+				<h3 className="song-title">Heartbeat</h3>
+				<audio className="audio-link" ref="audio_tag" src={ParallelRealities_Heartbeat} controls/>
 				<br/><br/>
 				
 				<h2 className="album-title">Live at Haileys Denton, TX 2005</h2>
@@ -108,7 +106,7 @@ export default class Music extends Component{
 					<li>Bass: Nathan Fenoglio</li>
 				</ul>
 				<br/><br/>
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/Zp5jtLA8D2I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<iframe className="youtube-link" src="https://www.youtube.com/embed/Zp5jtLA8D2I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				
 				<br/><br/><br/><br/>
 				<h1 className="band" style={{fontSize: "8vw"}}> Wrought of Obsidian</h1>

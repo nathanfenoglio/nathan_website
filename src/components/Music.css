@@ -1,7 +1,8 @@
 .music-container-1{
-    border: 10em dotted fuchsia;
+    border: 0.5em dotted fuchsia;
     margin-top: 10em;
     width: auto;
+    overflow: hidden;
 }
 
 .page-title{
@@ -23,4 +24,22 @@
     color: yellow;
     font-size: 3vw;
     list-style-type: none;
+}
+
+.song-title{
+    margin-top: 3em;
+    text-decoration: underline overline;
+    text-decoration-color: red;
+    color: yellow;
+    font-size: 3vw;
+}
+
+.youtube-link{
+    width: 40vw;
+    height: 40vw;
+}
+
+.audio-link{
+    width: 40vw;
+    height: 10vw;
 }
