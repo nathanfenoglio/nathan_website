@@ -1,4 +1,26 @@
 .music-container-1{
     border: 10em dotted fuchsia;
     margin-top: 10em;
+    width: auto;
+}
+
+.page-title{
+    font-size: 10vw;
+    color: white;
+}
+
+.band{
+    color: red;
+    font-size: 5vw;
+}
+
+.album-title{
+    color: fuchsia;
+    font-size: 4vw;
+}
+
+.players{
+    color: yellow;
+    font-size: 3vw;
+    list-style-type: none;
 }
