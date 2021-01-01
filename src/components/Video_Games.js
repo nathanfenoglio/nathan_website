@@ -7,6 +7,7 @@ export default class Video_Games extends Component{
 	render(){
 		return(
 			<div className="video-games-container">
+				{window.scrollTo(0, 0)}
 				<h1 className="page-title">Video Games</h1>
 				<br/><br/><br/>
 				<h1 className="game-title">Escape From Underground Terrestrial Abyss</h1>

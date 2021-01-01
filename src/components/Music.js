@@ -11,6 +11,7 @@ export default class Music extends Component{
 	render(){
 		return(
 			<div className="music-container-1">
+				{window.scrollTo(0, 0)}
 				<h1 className="page-title">Musical Pursuits</h1>
 				<br/><br/><br/>
 				<h1 className="band">Solo Electronic Music</h1>
@@ -32,7 +33,7 @@ export default class Music extends Component{
 					<iframe className="audio-link"
 					   frameborder="0"
 					   width="50vw"
-					   height="15"
+					   height="152"
 					   src="https://drive.google.com/file/d/15CwM3d4vTSsdbxBjLVnU_ZIdm0irdMwN/preview?usp=sharing">
 					</iframe>
 					<br/><br/><br/>
