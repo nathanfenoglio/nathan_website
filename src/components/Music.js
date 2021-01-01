@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './Music.css';
 import LiveAtAndysTrack1 from "../Harry_at_Andys_Track_01.m4a";
 import LiveAtAndysTrack2 from "../Harry_at_Andys_Track_02.m4a";
 import ParallelRealities_Reflection from "../Reflection.mp3";
@@ -9,7 +10,7 @@ export default class Music extends Component{
 	
 	render(){
 		return(
-			<div>
+			<div className="music-container-1">
 				<h1 style={{color: 'white', fontSize:200}}>Musical Pursuits</h1>
 				<br/><br/><br/>
 				<h1 style={{color: 'red', fontSize:100}}>Solo Electronic Music</h1>

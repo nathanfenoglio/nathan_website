@@ -21,14 +21,17 @@ import image_5 from "./images/orange.jpg";
 import image_6 from "./images/white.jpg";
 */
 
-import me_on_a_bridge_travis_pic from "./images/Me_Fort_Worth_Bridge_Travis_Pic.jpg";
+/*getting image in App.css instead*/
+/*import me_on_a_bridge_travis_pic from "./images/Me_Fort_Worth_Bridge_Travis_Pic.jpg";*/
 
 //function App() {
 class App extends Component{
 	render(){
 		  return (
 			<Router>
-				<div style={{ backgroundImage: `url(${me_on_a_bridge_travis_pic})` }} className="App">
+				{/*getting image in App.css instead*/}
+				{/*<div style={{ backgroundImage: `url(${me_on_a_bridge_travis_pic})` }} className="App">*/}
+				<div className="App">
 					<Navbar />
 					<br/>
 					<Route path="/Music" exact component={Music} />
