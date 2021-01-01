@@ -1,0 +1,106 @@
+.video-games-container{
+    border: 0.5em dotted green;
+    margin-top: 10em;
+    width: auto;
+    overflow: hidden;
+}
+
+.page-title{
+    font-size: 10vw;
+    color: white;
+}
+
+.game-title{
+    color: red;
+    font-size: 5vw;
+}
+
+.game-static-image{
+    width: 50vw;
+    height: 40vw;
+}
+
+.dev-team-title{
+    margin-top: 1em;
+    color: fuchsia;
+    font-size: 4vw;
+}
+
+.dev-team-members{
+    color: yellow;
+    font-size: 3vw;
+    list-style-type: none;
+}
+
+.cubeland-sol-path{
+    margin-top: 3em;
+    margin-bottom: 1em;
+    text-decoration: underline overline;
+    text-decoration-color: green;
+    color: chartreuse;
+    font-size: 4vw;
+}
+
+.spoiler-alert{
+    color: red;
+    font-size: 5vw;
+}
+
+.view-solution{
+    color: blueviolet;
+    font-size: 8vw;
+    text-decoration: underline overline dotted;
+    text-decoration-color: red;
+}
+
+/*conditional to check media and change stuff if less than 600px*/
+@media(max-width: 600px){
+    .page-title{
+        font-size: 15vw;
+        color: white;
+    }
+
+    .game-title{
+        color: red;
+        font-size: 7.5vw;
+    }
+    
+    .game-static-image{
+        width: 75vw;
+        height: 60vw;
+    }
+    
+    .dev-team-title{
+        margin-top: 1em;
+        color: fuchsia;
+        font-size: 6vw;
+    }
+    
+    .dev-team-members{
+        color: yellow;
+        font-size: 4.5vw;
+        list-style-type: none;
+    }
+    
+    .cubeland-sol-path{
+        margin-top: 3em;
+        margin-bottom: 1em;
+        text-decoration: underline overline;
+        text-decoration-color: green;
+        color: chartreuse;
+        font-size: 6vw;
+    }
+    
+    .spoiler-alert{
+        color: red;
+        font-size: 7.5vw;
+    }
+    
+    .view-solution{
+        color: blueviolet;
+        font-size: 12vw;
+        text-decoration: underline overline dotted;
+        text-decoration-color: red;
+    }
+    
+}

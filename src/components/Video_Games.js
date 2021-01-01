@@ -1,27 +1,28 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import title_screenshot_escape_from_uta from "../images/Title_Screen_Screenshot.jpg";
+import "./Video_Games.css";
 
 export default class Video_Games extends Component{
 	render(){
 		return(
-			<div style={{marginTop: '100px'}}>
-				<h1 style={{color: 'white', fontSize:200}}>Video Games</h1>
+			<div className="video-games-container">
+				<h1 className="page-title">Video Games</h1>
 				<br/><br/><br/>
-				<h1 style={{color: 'red', fontSize:100}}>Escape From Underground Terrestrial Abyss</h1>
-				<img style= {{flex:1 , width: undefined, height: undefined}} src={title_screenshot_escape_from_uta}/>
-				<h4 style={{color: 'yellow', fontSize: 75}}>Development Team:</h4>
-				<li style={{color: 'yellow', fontSize: 60}}>Samuel Schreiner</li>
-				<li style={{color: 'yellow', fontSize: 60}}>Hoang Ho</li>
-				<li style={{color: 'yellow', fontSize: 60}}>Hieu Vu</li>
-				<li style={{color: 'yellow', fontSize: 60}}>Debbie Nguyen</li>
-				<li style={{color: 'yellow', fontSize: 60}}>Nathan Fenoglio</li>
+				<h1 className="game-title">Escape From Underground Terrestrial Abyss</h1>
+				<img className="game-static-image" src={title_screenshot_escape_from_uta}/>
+				<h4 className="dev-team-title">Development Team:</h4>
+				<li className="dev-team-members">Samuel Schreiner</li>
+				<li className="dev-team-members">Hoang Ho</li>
+				<li className="dev-team-members">Hieu Vu</li>
+				<li className="dev-team-members">Debbie Nguyen</li>
+				<li className="dev-team-members">Nathan Fenoglio</li>
 				<br/>
 				
-				<h3 style={{color: 'white'}}>Cubeland Solution Path</h3>
-				<h3 style={{color:'red', fontsize: 50}}>SPOILER ALERT</h3>
-				<h4 style={{color: 'white'}}>If you find yourself lost and don’t have the time to ponder the cube to get your keys back</h4>
-				<Link to="/Cubeland_Solution_Path" style={{fontSize: 60}}>View Cubeland Solution Path</Link>
+				<h3 className="cubeland-sol-path">Cubeland Solution Path</h3>
+				<h3 className="spoiler-alert">SPOILER ALERT</h3>
+				<h4 style={{color: 'white', fontSize: '3vw'}}>If you find yourself lost and don’t have the time to ponder the cube to get your keys back</h4>
+				<Link to="/Cubeland_Solution_Path" className="view-solution">View Cubeland Solution Path</Link>
 				
 			</div>
 		)

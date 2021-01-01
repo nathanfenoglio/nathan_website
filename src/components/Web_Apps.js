@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
+import './Web_Apps.css';
 
 export default class Web_Apps extends Component{
 	render(){
 		return(
-			<h1 style={{color: 'white', fontSize:200}}>Web Apps</h1>
+			<div className="web-apps-container">
+				<h1 className="page-title">Web Apps</h1>
+			</div>
 		)
 	}
 }
