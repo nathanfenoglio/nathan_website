@@ -6,23 +6,23 @@
 }
 
 .page-title{
-    font-size: 10vw;
+    font-size: 15vw;
     color: white;
 }
 
 .band{
     color: red;
-    font-size: 5vw;
+    font-size: 7.5vw;
 }
 
 .album-title{
     color: fuchsia;
-    font-size: 4vw;
+    font-size: 6vw;
 }
 
 .players{
     color: yellow;
-    font-size: 3vw;
+    font-size: 4.5vw;
     list-style-type: none;
 }
 
@@ -31,15 +31,15 @@
     text-decoration: underline overline;
     text-decoration-color: red;
     color: yellow;
-    font-size: 3vw;
+    font-size: 4.5vw;
 }
 
 .youtube-link{
-    width: 40vw;
-    height: 40vw;
+    width: 60vw;
+    height: 60vw;
 }
 
 .audio-link{
-    width: 40vw;
-    height: 10vw;
+    width: 60vw;
+    height: 15vw;
 }
