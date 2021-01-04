@@ -4,7 +4,8 @@ import { Link } from 'react-router-dom';
 export default class Cubeland_Solution_Path extends Component{
 	render(){
 		return(
-			<div style={{paddingLeft: 80, color: 'red', backgroundColor: 'yellow', fontFamily:'Arial'}}>
+			<div style={{paddingLeft: 40, color: 'red', backgroundColor: 'yellow', fontFamily:'Arial'}}>
+				{window.scrollTo(0, 0)}
 				<p style={{textAlign: 'left'}}><strong>SPOILER ALERT </strong></p>
 				<p style={{textAlign: 'left'}}>(If you find yourself lost and don’t have the time to ponder the cube to get your keys back)</p>
 				<p style={{textAlign: 'left'}}>&nbsp;</p>
@@ -411,39 +412,39 @@ export default class Cubeland_Solution_Path extends Component{
 				<p style={{textAlign: 'left'}}>&nbsp;</p>
 				<p style={{textAlign: 'left'}}>Room 2_0_2</p>
 				<p style={{textAlign: 'left'}}>need to get to the <strong>right</strong> door in the room</p>
-				<p>Solution:</p>
-				<p>go right</p>
-				<p>jump on vertically moving platform</p>
-				<p>down through opening</p>
-				<p>go through portal door on right</p>
-				<p>jump on vertically moving platform</p>
-				<p>go right at top</p>
-				<p>jump on vertically moving platform</p>
-				<p>go through portal door at top</p>
-				<p>go left</p>
-				<p>flip switch</p>
-				<p>go through portal door down</p>
-				<p>go through portal on left (at top left)</p>
-				<p>flip switch</p>
-				<p>go left</p>
-				<p>down through opening before resets</p>
-				<p>go right before stone barricade closes from first switch</p>
-				<p>go through right door</p>
-				<p>&nbsp;</p>
-				<p>Room 2_1_2&nbsp;</p>
-				<p>fall down&nbsp;</p>
-				<p>touch hooded guy</p>
-				<p>takes you to bubble boy arena</p>
-				<p>you can now fly</p>
-				<p>each wall that you come in contact with will transport you to the wall on the opposite side of the arena</p>
-				<p>kill all bubble boys and collect the 4 tokens</p>
-				<p>a good practice is to go around all 4 to get them to congregate together, then shoot as much as you can before getting hit with bubble boy bullets going through the wall portals repeatedly until able to defeat all bubble boys</p>
-				<p>a giant key will emerge, get key, you won!!!!!</p>
-				<p>&nbsp;</p>
-				<p>&nbsp;</p>
-				<p>&nbsp;</p>
-				<p>&nbsp;</p>
-				<p>&nbsp;</p>
+				<p style={{textAlign: 'left'}}>Solution:</p>
+				<p style={{textAlign: 'left'}}>go right</p>
+				<p style={{textAlign: 'left'}}>jump on vertically moving platform</p>
+				<p style={{textAlign: 'left'}}>down through opening</p>
+				<p style={{textAlign: 'left'}}>go through portal door on right</p>
+				<p style={{textAlign: 'left'}}>jump on vertically moving platform</p>
+				<p style={{textAlign: 'left'}}>go right at top</p>
+				<p style={{textAlign: 'left'}}>jump on vertically moving platform</p>
+				<p style={{textAlign: 'left'}}>go through portal door at top</p>
+				<p style={{textAlign: 'left'}}>go left</p>
+				<p style={{textAlign: 'left'}}>flip switch</p>
+				<p style={{textAlign: 'left'}}>go through portal door down</p>
+				<p style={{textAlign: 'left'}}>go through portal on left (at top left)</p>
+				<p style={{textAlign: 'left'}}>flip switch</p>
+				<p style={{textAlign: 'left'}}>go left</p>
+				<p style={{textAlign: 'left'}}>down through opening before resets</p>
+				<p style={{textAlign: 'left'}}>go right before stone barricade closes from first switch</p>
+				<p style={{textAlign: 'left'}}>go through right door</p>
+				<p style={{textAlign: 'left'}}>&nbsp;</p>
+				<p style={{textAlign: 'left'}}>Room 2_1_2&nbsp;</p>
+				<p style={{textAlign: 'left'}}>fall down&nbsp;</p>
+				<p style={{textAlign: 'left'}}>touch hooded guy</p>
+				<p style={{textAlign: 'left'}}>takes you to bubble boy arena</p>
+				<p style={{textAlign: 'left'}}>you can now fly</p>
+				<p style={{textAlign: 'left'}}>each wall that you come in contact with will transport you to the wall on the opposite side of the arena</p>
+				<p style={{textAlign: 'left'}}>kill all bubble boys and collect the 4 tokens</p>
+				<p style={{textAlign: 'left'}}>a good practice is to go around all 4 to get them to congregate together, then shoot as much as you can before getting hit with bubble boy bullets going through the wall portals repeatedly until able to defeat all bubble boys</p>
+				<p style={{textAlign: 'left'}}>a giant key will emerge, get key, you won!!!!!</p>
+				<p style={{textAlign: 'left'}}>&nbsp;</p>
+				<p style={{textAlign: 'left'}}>&nbsp;</p>
+				<p style={{textAlign: 'left'}}>&nbsp;</p>
+				<p style={{textAlign: 'left'}}>&nbsp;</p>
+				<p style={{textAlign: 'left'}}>&nbsp;</p>
 			</div>
 		)
 	}

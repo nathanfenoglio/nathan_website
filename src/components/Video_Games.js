@@ -12,6 +12,16 @@ export default class Video_Games extends Component{
 				<br/><br/><br/>
 				<h1 className="game-title">Escape From Underground Terrestrial Abyss</h1>
 				<img className="game-static-image" src={title_screenshot_escape_from_uta}/>
+				<h2 className="play-game">Play Game!!! I compel you</h2>
+				<p>Keyboard Controls</p>
+				<p className="directions">Click on link or press play or levels below</p>
+				<a className="links" target="_blank" rel="noopener noreferrer" href="https://simmer.io/@nathanfenoglio/escape-from-underground-terrestrial-abyss">Play Game With Keyboard Controls</a>
+				<br/>
+				<iframe src="https://i.simmer.io/@nathanfenoglio/escape-from-underground-terrestrial-abyss" style={{width: "960px", height: "600px"}}></iframe>
+				<p>Mobile Touch Controls</p>
+				<p className="directions">Click on link below to play mobile version</p>
+				<a className="links" target="_blank" rel="noopener noreferrer" href="https://simmer.io/@nathanfenoglio/escape-from-underground-terrestrial-abyss-mobile-controls">Play Game With Touch Screen Controls</a>
+
 				<h4 className="dev-team-title">Development Team:</h4>
 				<li className="dev-team-members">Samuel Schreiner</li>
 				<li className="dev-team-members">Hoang Ho</li>

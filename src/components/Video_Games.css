@@ -20,6 +20,27 @@
     height: 40vw;
 }
 
+.play-game{
+    margin-top: 1em;
+    color:chartreuse;
+    font-size: 6vw;
+}
+
+p{
+    color: crimson;
+    font-size: 4vw;
+}
+
+.directions{
+    color: aquamarine;
+    font-size: 2vw;
+}
+
+.links{
+    color: blue;
+    font-size: 3vw;
+}
+
 .dev-team-title{
     margin-top: 1em;
     color: fuchsia;
