@@ -122,6 +122,15 @@ export default class Music extends Component{
 
 				<div style={{ backgroundColor: "black", width: "60vw", marginLeft: "20vw", marginBottom: "8vw", paddingBottom: "5vw", paddingTop: "5vw"}}>
 					<h1 className="band" style={{fontSize: "8vw"}}> Wrought of Obsidian</h1>
+
+					<h2 className="album-title">Video</h2>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/koSfXwUaQ5U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/gLxrwo5T2Oo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/ak2m4rUP_e0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/2RsH7-qshh0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+
+					<h2 className="album-title">At Long Last</h2>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/2APEz7dNrDM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 				</div>
 			</div>
 		)
