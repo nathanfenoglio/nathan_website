@@ -114,7 +114,7 @@ p{
         color: aquamarine;
         font-size: 2vw;
     }
-    
+
     .links{
         color: crimson;
         font-size: 6vw;
@@ -124,6 +124,11 @@ p{
         animation: animate 1.0s linear infinite;
     }
     
+    /* I'm not sure why I can't seem to access any of this from a div, it works when I do inline styling, but nothing seems to change pulled from here
+    .links-container{
+        padding-bottom: 20vw;
+    }
+    */
     .dev-team-title{
         margin-top: 1em;
         color: fuchsia;

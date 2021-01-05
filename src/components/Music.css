@@ -28,8 +28,8 @@
 }
 
 .song-title{
-    margin-top: 3em;
-    margin-bottom: 1em;
+    margin-top: 2em;
+    /*margin-bottom: 1em;*/
     text-decoration: underline overline;
     text-decoration-color: red;
     color: yellow;
@@ -38,7 +38,7 @@
 
 .youtube-link{
     width: 40vw;
-    height: 27vw;
+    height: 23vw;
 }
 
 .audio-link{
