@@ -4,6 +4,8 @@ import LiveAtAndysTrack1 from "../Harry_at_Andys_Track_01.m4a";
 import LiveAtAndysTrack2 from "../Harry_at_Andys_Track_02.m4a";
 import ParallelRealities_Heartbeat from "../Heartbeat.mp3";
 import ParallelRealities_Reflection from "../Reflection.mp3";
+import wooLogo from "../images/WOO_logo.png";
+import coasi_album_cover from "../images/ChildrenOfAShatteredInfinityCover.jpg";
 import './Music.css';
 
 export default class Music extends Component{
@@ -121,16 +123,37 @@ export default class Music extends Component{
 				</div>
 
 				<div style={{ backgroundColor: "black", width: "60vw", marginLeft: "20vw", marginBottom: "8vw", paddingBottom: "5vw", paddingTop: "5vw"}}>
-					<h1 className="band" style={{fontSize: "8vw"}}> Wrought of Obsidian</h1>
+					{/*<h1 className="band" style={{fontSize: "8vw"}}> Wrought of Obsidian</h1>*/}
+					<img className="woo-logo" src={wooLogo}></img>
+					<br/>
+					<a className="gen-link" target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/wroughtofobsidian/">Facebook</a>
+					<br/><br/><br/><br/><br/><br/><br/><br/>
+					<h2 className="album-title">Children of a Shattered Infinity</h2>
+					<img src={coasi_album_cover}></img>
+					<p className="directions">Click a link to listen to album</p>
+					<a className="gen-link" target="_blank" rel="noopener noreferrer" href="https://wroughtofobsidian.bandcamp.com/album/children-of-a-shattered-infinity">Listen on bandcamp</a>
+					<br/>
+					<a className="gen-link" target="_blank" rel="noopener noreferrer" href="https://open.spotify.com/album/6Be7lXxBNAstVgzhiT42TL?si=RMauNV7VTMW0sQ57VdWTDQ">Listen on Spotify</a>
+					<br/>
+					<a className="gen-link" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/playlist?list=OLAK5uy_kqzjx5Noxy7umwbnLDkrYvGhfBoo_4zdI">Listen on YouTube</a>
+					<br/><br/><br/><br/>
+
+					<h2 className="album-title" style={{ marginTop: "10vw" }}>At Long Last</h2>
+					<iframe className="youtube-link" src="https://www.youtube.com/embed/2APEz7dNrDM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+					<br/><br/><br/><br/>
+
+					<p className="directions">Purchase Merch</p>
+					<a className="gen-link" target="_blank" rel="noopener noreferrer" href="https://wroughtofobsidian.dizzyjam.com/">Buy Stuff</a>
+					<br/>
+					<a className="gen-link" target="_blank" rel="noopener noreferrer" href="https://wroughtofobsidian.bigcartel.com/">Buy Stuff</a>
+					<br/><br/><br/><br/>
 
 					<h2 className="album-title">Video</h2>
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/koSfXwUaQ5U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/gLxrwo5T2Oo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/ak2m4rUP_e0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/2RsH7-qshh0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+					<iframe className="youtube-link" src="https://www.youtube.com/embed/koSfXwUaQ5U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+					<iframe className="youtube-link" src="https://www.youtube.com/embed/gLxrwo5T2Oo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+					<iframe className="youtube-link" src="https://www.youtube.com/embed/ak2m4rUP_e0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+					<iframe className="youtube-link" src="https://www.youtube.com/embed/2RsH7-qshh0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 
-					<h2 className="album-title">At Long Last</h2>
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/2APEz7dNrDM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 				</div>
 			</div>
 		)

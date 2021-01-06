@@ -44,7 +44,23 @@
 
 .audio-link{
     width: 40vw;
-    height: 7vw;
+    height: 7vw;    
+}
+
+.gen-link{
+    font-size: 5vw;
+    text-decoration: underline;
+}
+
+.directions{
+    color: aquamarine;
+    font-size: 2vw;
+}
+
+.woo-logo{
+    width: 37.5vw;
+    height: 22.5vw;
+    margin-bottom: 10vw;
 }
 
 /*conditional to check media and change stuff if less than 600px*/
