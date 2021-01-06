@@ -129,7 +129,7 @@ export default class Music extends Component{
 					<a className="gen-link" target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/wroughtofobsidian/">Facebook</a>
 					<br/><br/><br/><br/><br/><br/><br/><br/>
 					<h2 className="album-title">Children of a Shattered Infinity</h2>
-					<img src={coasi_album_cover}></img>
+					<img style={{ width: "37.5vw", width: "37.5vw" }} src={coasi_album_cover}></img>
 					<p className="directions">Click a link to listen to album</p>
 					<a className="gen-link" target="_blank" rel="noopener noreferrer" href="https://wroughtofobsidian.bandcamp.com/album/children-of-a-shattered-infinity">Listen on bandcamp</a>
 					<br/>
