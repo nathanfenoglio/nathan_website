@@ -123,6 +123,11 @@ p{
         text-decoration-color: aquamarine;
         animation: animate 1.0s linear infinite;
     }
+
+    .youtube-link{
+        width: 40vw;
+        height: 23vw;
+    }
     
     /* I'm not sure why I can't seem to access any of this from a div, it works when I do inline styling, but nothing seems to change pulled from here
     .links-container{

@@ -17,6 +17,7 @@ const connection = mysql.createConnection({
 */
 
 //create connection to AWS RDS instance
+//THINK I SHOULD PROBABLY DITCH, YOU'RE NOT USING CURRENTLY BUT ARE USING UP RESOURCES IN AWS WITH THIS
 const connection = mysql.createConnection({
 	host: 'nathan-website-take-1.cpp3rxeuxzx8.us-east-2.rds.amazonaws.com',
 	user: 'admin',

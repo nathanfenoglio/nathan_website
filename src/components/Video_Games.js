@@ -20,6 +20,8 @@ export default class Video_Games extends Component{
 					<br/>
 					{/*<iframe src="https://i.simmer.io/@nathanfenoglio/escape-from-underground-terrestrial-abyss" style={{width: "960px", height: "600px"}}></iframe>*/}
 					<a className="links" target="_blank" rel="noopener noreferrer" href="https://simmer.io/@nathanfenoglio/escape-from-underground-terrestrial-abyss-mobile-controls">Play Game With Touch Screen Controls</a>
+					<br/>
+					<a className="links" target="_blank" rel="noopener noreferrer" href="https://play.google.com/store/apps/details?id=com.TheATeam.EscapeFromUndergroundTerrestrialAbyss">Google Play</a>
 				</div>
 
 				<div style={{ backgroundColor: "black", width: "40vw", marginLeft: "30vw"}}>
@@ -37,6 +39,8 @@ export default class Video_Games extends Component{
 					<h3 className="spoiler-alert">SPOILER ALERT</h3>
 					<h4 style={{color: 'white', fontSize: '3vw'}}>If you find yourself lost and don’t have the time to ponder the cube to get your keys back</h4>
 					<Link to="/Cubeland_Solution_Path" className="view-solution">View Cubeland Solution Path</Link>
+					<h3 className="spoiler-alert">Watch Playthrough</h3>
+					<iframe className="youtube-link" src="https://www.youtube.com/embed/ar7niKAHrWI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 				</div>
 			</div>
 		)
