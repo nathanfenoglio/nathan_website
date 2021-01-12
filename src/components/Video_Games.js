@@ -18,7 +18,6 @@ export default class Video_Games extends Component{
 					<p className="directions">Click On One Of The Links Below</p>
 					<a className="links" target="_blank" rel="noopener noreferrer" href="https://simmer.io/@nathanfenoglio/escape-from-underground-terrestrial-abyss">Play Game With Keyboard Controls</a>
 					<br/>
-					{/*<iframe src="https://i.simmer.io/@nathanfenoglio/escape-from-underground-terrestrial-abyss" style={{width: "960px", height: "600px"}}></iframe>*/}
 					<a className="links" target="_blank" rel="noopener noreferrer" href="https://simmer.io/@nathanfenoglio/escape-from-underground-terrestrial-abyss-mobile-controls">Play Game With Touch Screen Controls</a>
 					<br/>
 					<a className="links" target="_blank" rel="noopener noreferrer" href="https://play.google.com/store/apps/details?id=com.TheATeam.EscapeFromUndergroundTerrestrialAbyss">Google Play</a>

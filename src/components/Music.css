@@ -3,7 +3,6 @@
     margin-top: 10em;
     width: auto;
     overflow: hidden;
-    
 }
 
 .page-title{
@@ -30,7 +29,6 @@
 
 .song-title{
     margin-top: 2em;
-    /*margin-bottom: 1em;*/
     text-decoration: underline overline;
     text-decoration-color: red;
     color: yellow;

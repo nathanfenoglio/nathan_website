@@ -123,7 +123,6 @@ export default class Music extends Component{
 				</div>
 
 				<div style={{ backgroundColor: "black", width: "60vw", marginLeft: "20vw", marginBottom: "8vw", paddingBottom: "5vw", paddingTop: "5vw"}}>
-					{/*<h1 className="band" style={{fontSize: "8vw"}}> Wrought of Obsidian</h1>*/}
 					<img className="woo-logo" src={wooLogo}></img>
 					<br/>
 					<a className="gen-link" target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/wroughtofobsidian/">Facebook</a>
