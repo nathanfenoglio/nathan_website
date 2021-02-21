@@ -439,7 +439,7 @@ export default class Cubeland_Solution_Path extends Component{
 				<p style={{textAlign: 'left'}}>each wall that you come in contact with will transport you to the wall on the opposite side of the arena</p>
 				<p style={{textAlign: 'left'}}>kill all bubble boys and collect the 4 tokens</p>
 				<p style={{textAlign: 'left'}}>a good practice is to go around all 4 to get them to congregate together, then shoot as much as you can before getting hit with bubble boy bullets going through the wall portals repeatedly until able to defeat all bubble boys</p>
-				<p style={{textAlign: 'left'}}>a giant key will emerge, get key, you won!!!!!</p>
+				<p style={{textAlign: 'left'}}>a giant key will emerge, get key, you won!!!!!!!!</p>
 				<p style={{textAlign: 'left'}}>&nbsp;</p>
 				<p style={{textAlign: 'left'}}>&nbsp;</p>
 				<p style={{textAlign: 'left'}}>&nbsp;</p>
