@@ -156,7 +156,7 @@ export default class Music extends Component{
 					<iframe className="youtube-link" src="https://www.youtube.com/embed/2RsH7-qshh0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 
 					<h2 className="album-title">Playthrough Videos</h2>
-					
+					<iframe className="youtube-link" src="https://www.youtube.com/embed/3vUzfJl8VBw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 				</div>
 			</div>
 		)
