@@ -35,6 +35,10 @@ export default class Music extends Component{
 						<br/><br/><br/>
 						<h3 className="song-title">Steppin' Into Tomorrow</h3>
 						<iframe className="youtube-link" src="https://www.youtube.com/embed/99sKxIIpdBI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>						<br/><br/><br/>
+
+						<h3 className="song-title">Detour Through Here</h3>
+						<iframe className="youtube-link" src="https://www.youtube.com/embed/M-Y47CxSYvA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+
 						<h3 className="song-title">Rubiks Cuban</h3>
 						<iframe className="audio-link"
 						frameborder="0"
