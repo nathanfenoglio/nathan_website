@@ -50,6 +50,9 @@ export default class Music extends Component{
 						<h3 className="song-title">Eye Eye Eye</h3>
 						<iframe className="youtube-link" src="https://www.youtube.com/embed/LN3_ks_yqj4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 
+						<h3 className="song-title">Mutating Jerk (the rate of change of acceleration with time)</h3>
+						<iframe className="youtube-link" src="https://www.youtube.com/embed/gzTUQMyjCyc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+
 						<h3 className="song-title">Rubiks Cuban</h3>
 						<iframe className="audio-link"
 						frameborder="0"
