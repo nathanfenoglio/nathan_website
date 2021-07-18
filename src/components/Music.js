@@ -56,6 +56,9 @@ export default class Music extends Component{
 						<h3 className="song-title">Knot What You Would Expect Then Enter The World</h3>
 						<iframe className="youtube-link" src="https://www.youtube.com/embed/t3zKP68Lsxk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 
+						<h3 className="song-title">Lady Day</h3>
+						<iframe className="youtube-link" src="https://www.youtube.com/embed/r14f9LdvYB4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+
 						<h3 className="song-title">Rubiks Cuban</h3>
 						<iframe className="audio-link"
 						frameborder="0"
