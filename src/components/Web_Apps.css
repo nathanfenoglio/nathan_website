@@ -10,9 +10,48 @@
     color: white;
 }
 
+.directions{
+    padding-top: 2vw;
+    color: aquamarine;
+    font-size: 3vw;
+}
+
+.links{
+    color: crimson;
+    font-size: 6vw;
+    text-decoration: underline;
+    text-decoration-style: dashed;
+    text-decoration-color: aquamarine;
+    animation: animate 1.0s linear infinite;
+}
+
+.game-static-image{
+    width: 50vw;
+    height: 40vw;
+}
+
 @media(max-width: 600px){
     .page-title{
         font-size: 15vw;
         color: white;
-    }    
+    }
+    
+    .directions{
+        color: aquamarine;
+        font-size: 2vw;
+    }
+
+    .links{
+        color: crimson;
+        font-size: 6vw;
+        text-decoration: underline;
+        text-decoration-style: dashed;
+        text-decoration-color: aquamarine;
+        animation: animate 1.0s linear infinite;
+    }
+
+    .game-static-image{
+        width: 75vw;
+        height: 60vw;
+    }
 }
