@@ -11,6 +11,7 @@ export default class Web_Apps extends Component{
 
 				<div style={{ backgroundColor: "black", paddingTop: "2vw", paddingBottom: "5vw" }}>
 					<p className="directions">3D Folded Cube Maze</p>
+					<p className="comments">for play on desktop with keyboard arrow controls</p>
 					<img className="game-static-image" src={cube_maze_image}/>
 					<br/>
 					<a className="links" target="_blank" rel="noopener noreferrer" href="https://nathanfenoglio.github.io/cube_maze/">Play 3D Folded Cube Maze</a>

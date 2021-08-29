@@ -16,6 +16,12 @@
     font-size: 3vw;
 }
 
+.comments{
+    /*padding-top: 2vw;*/
+    color: hotpink;
+    font-size: 2vw;
+}
+
 .links{
     color: crimson;
     font-size: 6vw;
