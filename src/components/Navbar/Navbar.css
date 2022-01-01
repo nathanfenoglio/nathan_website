@@ -73,7 +73,6 @@
 		height: 800px;
 		position: absolute;
 		top: 80px;
-		/*top: 0px;*/
 		left: -100%;
 		opacity: 1;
 		transition: all 0.5s ease;
@@ -83,6 +82,9 @@
 		background: #6668f4;
 		left: 0;
 		opacity: 1;
+		/*for some reason the navbar items were too low and not able to be seen on mobile devices*/
+		/*at some point even though it had worked before*/
+		/*changed the height below and now it's visible again*/
 		/*height: 1200px;*/
 		height: 600px;
 		transition: all 0.5s ease;
