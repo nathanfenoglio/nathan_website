@@ -19,6 +19,7 @@ export default class Web_Apps extends Component{
 					<img className="game-static-image" src={cube_maze_image}/>
 					<br/>
 					<br/>
+					<a className="links" target="_blank" rel="noopener noreferrer" href="https://nathanfenoglio.github.io/multi_dimensional_mazes/">More 3D Mazes</a>
 				</div>
 
 			</div>
