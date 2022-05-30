@@ -68,6 +68,9 @@ export default class Music extends Component{
 						<h3 className="song-title">Waving While Performing the Ol' In-Out</h3>
 						<iframe className="youtube-link" src="https://www.youtube.com/embed/uHHFL4B9X9k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 
+						<h3 className="song-title">Vexed</h3>
+						<iframe className="youtube-link" src="https://www.youtube.com/embed/12a4xSNXZtA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+
 						<h3 className="song-title">Rubiks Cuban</h3>
 						<iframe className="audio-link"
 						frameborder="0"
