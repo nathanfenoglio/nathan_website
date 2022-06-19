@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ReactPlayer from 'react-player';
 //import ParallelRealities_GiveMeOneGoodReason from "../Give_Me_One_Good_Reason.mp3";
-import LiveAtAndysTrack1 from "../Harry_at_Andys_Track_01.m4a";
+//import LiveAtAndysTrack1 from "../Harry_at_Andys_Track_01.m4a";
 import LiveAtAndysTrack2 from "../Harry_at_Andys_Track_02.m4a";
 //import ParallelRealities_Heartbeat from "../Heartbeat.mp3";
 import ParallelRealities_Reflection from "../Reflection.mp3";
@@ -118,10 +118,16 @@ export default class Music extends Component{
 					</ul>
 					<br/>
 					<h3 className="song-title">Get That Loot Into the Bag as Reasonably Quick as You Can Let's go Hey</h3>
-					<audio className="audio-link" ref="audio_tag" src={LiveAtAndysTrack1} controls />
+					<ReactPlayer
+						url="https://soundcloud.com/flimmflamm23/get-that-loot-into-the-bag-as-reasonably-quick-as-you-can-lets-go-hey"
+						className='react-player'					
+					/>					
 					<br/>
 					<h3 className="song-title">Stealing crackers from the wheat farm</h3>
-					<audio className="audio-link" ref="audio_tag" src={LiveAtAndysTrack2} controls/>
+					<ReactPlayer
+						url="https://soundcloud.com/flimmflamm23/stealing-crackers-from-the-wheat-farm"
+						className='react-player'					
+					/>										
 				</div>
 
 				<div style={{ backgroundColor: "peru", width: "60vw", marginLeft: "20vw", marginBottom: "8vw", paddingBottom: "5vw", paddingTop: "5vw"}}>
