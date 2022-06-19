@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
-import ParallelRealities_GiveMeOneGoodReason from "../Give_Me_One_Good_Reason.mp3";
+import ReactPlayer from 'react-player';
+//import ParallelRealities_GiveMeOneGoodReason from "../Give_Me_One_Good_Reason.mp3";
 import LiveAtAndysTrack1 from "../Harry_at_Andys_Track_01.m4a";
 import LiveAtAndysTrack2 from "../Harry_at_Andys_Track_02.m4a";
-import ParallelRealities_Heartbeat from "../Heartbeat.mp3";
+//import ParallelRealities_Heartbeat from "../Heartbeat.mp3";
 import ParallelRealities_Reflection from "../Reflection.mp3";
 import wooLogo from "../images/WOO_logo.png";
 import coasi_album_cover from "../images/ChildrenOfAShatteredInfinityCover.jpg";
@@ -139,10 +140,22 @@ export default class Music extends Component{
 					<audio className="audio-link" ref="audio_tag" src={ParallelRealities_Reflection} controls/>
 					<br/><br/>
 					<h3 className="song-title">Give Me One Good Reason</h3>
-					<audio className="audio-link" ref="audio_tag" src={ParallelRealities_GiveMeOneGoodReason} controls/>
+					<ReactPlayer
+						url="https://soundcloud.com/dutchangles/02-heartbeat"
+						className='react-player'					
+					/>
 					<br/><br/>
 					<h3 className="song-title">Heartbeat</h3>
-					<audio className="audio-link" ref="audio_tag" src={ParallelRealities_Heartbeat} controls/>
+					<ReactPlayer
+						url="https://soundcloud.com/dutchangles/02-heartbeat"
+						className='react-player'					
+					/>
+
+					<h3 className="song-title">Neil Diamond</h3>
+					<ReactPlayer
+						url="https://soundcloud.com/dutchangles/04-neil-diamond"
+						className='react-player'					
+					/>
 					<br/><br/>
 					
 					<h2 className="album-title">Live at Haileys Denton, TX 2005</h2>

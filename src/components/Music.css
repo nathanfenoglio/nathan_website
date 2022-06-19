@@ -60,6 +60,16 @@
     height: 22.5vw;
     margin-bottom: 10vw;
 }
+.react-player{
+    padding-left: 5vw;
+    /*
+    align-items: center;
+    width: 300px;
+    height: 100px;
+    position: relative;
+    background-color: blue;
+    */
+}
 
 /*conditional to check media and change stuff if less than 600px*/
 @media(max-width: 600px){
