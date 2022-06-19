@@ -62,6 +62,9 @@
 }
 .react-player{
     padding-left: 5vw;
+    width: 40vw;
+    height: 23vw;
+
     /*
     align-items: center;
     width: 300px;

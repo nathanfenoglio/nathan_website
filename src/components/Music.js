@@ -119,12 +119,16 @@ export default class Music extends Component{
 					<br/>
 					<h3 className="song-title">Get That Loot Into the Bag as Reasonably Quick as You Can Let's go Hey</h3>
 					<ReactPlayer
+						width='40%' 
+						height='40%'
 						url="https://soundcloud.com/flimmflamm23/get-that-loot-into-the-bag-as-reasonably-quick-as-you-can-lets-go-hey"
 						className='react-player'					
 					/>					
 					<br/>
 					<h3 className="song-title">Stealing crackers from the wheat farm</h3>
 					<ReactPlayer
+						width='40%' 
+						height='40%'
 						url="https://soundcloud.com/flimmflamm23/stealing-crackers-from-the-wheat-farm"
 						className='react-player'					
 					/>										
@@ -147,18 +151,24 @@ export default class Music extends Component{
 					<br/><br/>
 					<h3 className="song-title">Give Me One Good Reason</h3>
 					<ReactPlayer
-						url="https://soundcloud.com/dutchangles/02-heartbeat"
+						width='40%' 
+						height='40%'
+						url="https://soundcloud.com/dutchangles/01-one-good-reason"
 						className='react-player'					
 					/>
 					<br/><br/>
 					<h3 className="song-title">Heartbeat</h3>
 					<ReactPlayer
+						width='40%' 
+						height='40%'
 						url="https://soundcloud.com/dutchangles/02-heartbeat"
 						className='react-player'					
 					/>
 
 					<h3 className="song-title">Neil Diamond</h3>
 					<ReactPlayer
+						width='40%' 
+						height='40%'
 						url="https://soundcloud.com/dutchangles/04-neil-diamond"
 						className='react-player'					
 					/>
