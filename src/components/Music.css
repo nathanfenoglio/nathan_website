@@ -1,4 +1,5 @@
 .music-container-1{
+    /* display: flex; */
     border: 0.5em dotted fuchsia;
     margin-top: 10em;
     width: auto;
@@ -11,6 +12,7 @@
 }
 
 .band{
+    /* display: flex; */
     color: red;
     font-size: 5vw;
 }

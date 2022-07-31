@@ -23,6 +23,7 @@ export default class Music extends Component{
 				<div style={{ backgroundColor: "cyan", width: "auto", marginBottom: "5vw", paddingTop: "5vw"}}>
 					<h1 className="band">Solo Electronic Music</h1>
 					<p>
+						<a className="gen-link" target="_blank" rel="noopener noreferrer" href="https://soundcloud.com/flimmflamm23">Listen on Soundcloud</a>
 						<br/>
 						<h3 className="song-title">Time to Travel, Face It</h3>
 						<iframe className="youtube-link" src="https://www.youtube.com/embed/jTS6Jh6uF40" frameborder="10" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
