@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Navbar from "./components/Navbar/Navbar";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import './App.css';
-import Carousel from "react-bootstrap/Carousel";
+// import Carousel from "react-bootstrap/Carousel";
 
 import Music from "./components/Music";
 import Video_Games from "./components/Video_Games";

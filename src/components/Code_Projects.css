@@ -38,7 +38,9 @@
 
 .smaller-directions{
     color: aqua;
-    font-size: 1vw;
+    /* font-size: 1vw; */
+    font-size: 1.5vw;
+    text-align: center;
 }
 
 @media(max-width: 600px){

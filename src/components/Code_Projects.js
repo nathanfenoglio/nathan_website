@@ -23,7 +23,7 @@ export default class Code_Projects extends Component{
 					<p className="directions">Take 2 Sequences And Do A Bunch Of Stuff</p>
 					<p className="comments">wxWidgets form that takes 2 sequences and allows user to perform all sorts of operations on them to generate music sequences</p>
 					<a className="links" target="_blank" rel="noopener noreferrer" href="https://app.box.com/s/xfcio6glciu63e0uqhwhqmjvi1tb092r">Follow Link to Download for Windows</a>
-					<img className="app-static-image" src={take_2_sequences_and_do_a_bunch_of_stuff_image}/>	
+					<img className="app-static-image" style={{ paddingBottom: "2vw" }} src={take_2_sequences_and_do_a_bunch_of_stuff_image}/>	
 					<p className="smaller-directions">Operations:</p>
 					<p className="smaller-directions">Mod By Add By - mod each # in sequence by "mod by" value then add "add by" value</p>
 					<p className="smaller-directions">Add By Mod By - add each # in sequence by "add by" value then mod by "mod by" value</p>

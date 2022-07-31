@@ -18,11 +18,13 @@ export default class Music extends Component{
 				<h1 className="page-title">Musical Pursuits</h1>
 				<br/><br/><br/>
 
-				<div style={{ backgroundColor: "cyan", width: "60vw", marginLeft: "20vw", marginBottom: "5vw", paddingTop: "5vw"}}>
+				{/* getting rid of margin and changing width to auto */}
+				{/* <div style={{ backgroundColor: "cyan", width: "60vw", marginLeft: "20vw", marginBottom: "5vw", paddingTop: "5vw"}}> */}
+				<div style={{ backgroundColor: "cyan", width: "auto", marginBottom: "5vw", paddingTop: "5vw"}}>
 					<h1 className="band">Solo Electronic Music</h1>
 					<p>
 						<br/>
-						<h3 className="song-title" className="song-title">Time to Travel, Face It</h3>
+						<h3 className="song-title">Time to Travel, Face It</h3>
 						<iframe className="youtube-link" src="https://www.youtube.com/embed/jTS6Jh6uF40" frameborder="10" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 						<br/><br/><br/>
 						<h3 className="song-title">This Is It</h3>
