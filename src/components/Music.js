@@ -119,6 +119,7 @@ export default class Music extends Component{
 
 				{/* <div style={{ backgroundColor: "limegreen", width: "60vw", marginLeft: "20vw", marginBottom: "8vw", paddingBottom: "5vw", paddingTop: "5vw"}}> */}
 				<div style={{ backgroundColor: "limegreen", width: "auto", marginBottom: "5vw", paddingBottom: "5vw", paddingTop: "5vw"}}>
+					<div>
 					<h1 className="band">Harry Has a Head Like a Ping Pong Ball</h1>
 					<h2 className="album-title">Post Apocalyptic Time Travel Core</h2>
 					<ul className="players">
@@ -126,6 +127,7 @@ export default class Music extends Component{
 						<li>Drums: Dustin Adams</li>
 						<li>Bass: Nathan Fenoglio</li>
 					</ul>
+					</div>
 					<p className='music-box'>
 						<div className='one-song'>
 							<h3 className="song-title">Skullhead</h3>
