@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import './App.css';
 // import Carousel from "react-bootstrap/Carousel";
 
+import Home from './components/Home';
 import Music from "./components/Music";
 import Video_Games from "./components/Video_Games";
 import Cubeland_Solution_Path from "./components/Cubeland_Solution_Path";
@@ -18,6 +19,7 @@ class App extends Component{
 				<div className="App">
 					<Navbar />
 					<br/>
+					<Route path="/" exact component={Home} />
 					<Route path="/Music" exact component={Music} />
 					<Route path="/Video_Games" exact component={Video_Games}/>
 					<Route path="/Cubeland_Solution_Path" exact component={Cubeland_Solution_Path}/>

@@ -1,0 +1,55 @@
+.home-container{
+    display: flex;
+    flex-direction: column;
+    margin: 10%;
+}
+
+.home-content-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #666;
+}
+
+.home-content-box h1{
+    color: chartreuse;
+    font-size: 8vw;
+}
+
+.home-content-box h2{
+    color: fuchsia;
+    font-size: 5vw;
+}
+
+.main-description{
+    color: white;
+    font-size: 3vw;
+}
+
+.category-description{
+    color: white;
+    font-size: 2vw;
+}
+
+.blah-blah-1{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.link{
+    color: orangered;
+    font-size: 3vw;
+    animation: animate 1.0s linear infinite;
+}
+
+.list{
+    font-size: 2vw;
+    color: black;
+}
+
+@media(max-width: 800px){
+    .home-container{
+        padding-top: 15%;
+    }
+}
