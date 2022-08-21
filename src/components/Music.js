@@ -193,13 +193,13 @@ export default class Music extends Component{
 					<p className='music-box'>
 						<div className='one-song'>
 							<h3 className="song-title">Reflection</h3>
-							<audio style={{ marginBottom: "25%", marginTop: "25%", width: "75%" }} ref="audio_tag" src={ParallelRealities_Reflection} controls/>
+							<audio style={{ marginBottom: "15%", marginTop: "15%", width: "75%" }} ref="audio_tag" src={ParallelRealities_Reflection} controls/>
 						</div>
 						<div className='one-song'>
 							<h3 className="song-title">Give Me One Good Reason</h3>
 							<ReactPlayer
-								width='40%' 
-								height='40%'
+								width='50%' 
+								height='50%'
 								url="https://soundcloud.com/dutchangles/01-one-good-reason"
 								className='react-player'					
 							/>
@@ -207,8 +207,8 @@ export default class Music extends Component{
 						<div className='one-song'>
 							<h3 className="song-title">Heartbeat</h3>
 							<ReactPlayer
-								width='40%' 
-								height='40%'
+								width='50%' 
+								height='50%'
 								url="https://soundcloud.com/dutchangles/02-heartbeat"
 								className='react-player'					
 							/>
@@ -216,8 +216,8 @@ export default class Music extends Component{
 						<div className='one-song'>
 							<h3 className="song-title">Neil Diamond</h3>
 							<ReactPlayer
-								width='40%' 
-								height='40%'
+								width='50%' 
+								height='50%'
 								url="https://soundcloud.com/dutchangles/04-neil-diamond"
 								className='react-player'					
 							/>
