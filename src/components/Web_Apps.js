@@ -23,6 +23,8 @@ export default class Web_Apps extends Component{
 					<p className="comments" style={{fontSize: "4vw"}}>w - rotate perspective up<br/>s - rotate perspective down<br/>a - rotate perspective left<br/>d - rotate perspective right<br/><br/></p>
 					<p className="comments" style={{fontSize: "4vw"}}>Cells' Color Codes:</p>
 					<p className="comments" style={{fontSize: "4vw"}}>Purple Cell - can go in<br/>Green Cell - can go out<br/>Orange Cell - can go in/out<br/>Pink Cell - no in/out</p>
+					<br/>
+					<a className="links" target="_blank" rel="noopener noreferrer" href="https://github.com/nathanfenoglio/multi_dimensional_mazes_with_3D_rotations">Check out code on GitHub</a>
 
 
 
@@ -34,8 +36,12 @@ export default class Web_Apps extends Component{
 					<img className="game-static-image" src={cube_map_image}/>
 					<img className="game-static-image" src={cube_maze_image}/>
 					<br/>
+					<a className="links" target="_blank" rel="noopener noreferrer" href="https://github.com/nathanfenoglio/cube_maze">Check out code on GitHub</a>
+					<br/>
 					<br/>
 					<a className="links" target="_blank" rel="noopener noreferrer" href="https://nathanfenoglio.github.io/multi_dimensional_mazes/">More 3D Mazes</a>
+					<br/>
+					<a className="links" target="_blank" rel="noopener noreferrer" href="https://github.com/nathanfenoglio/multi_dimensional_mazes">Check out code on GitHub</a>
 				</div>
 
 			</div>

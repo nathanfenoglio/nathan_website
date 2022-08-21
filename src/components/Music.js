@@ -23,86 +23,73 @@ export default class Music extends Component{
 					<h1 className="band">Solo Electronic Music</h1>
 					<a className="gen-link" target="_blank" rel="noopener noreferrer" href="https://soundcloud.com/flimmflamm23">Listen on Soundcloud</a>
 					<br/>
+					<a className="gen-link" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/channel/UCu2L2DwJfQsSkZdv3GtGwzQ/videos?view=0&sort=p">YouTube Channel</a>
+
+					<br/>
 					<p className="music-box">
 						<div className='one-song'>
 							<h3 className="song-title">Time to Travel, Face It</h3>
 							<iframe className="youtube-link" src="https://www.youtube.com/embed/jTS6Jh6uF40" frameborder="10" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-							{/* <br/><br/><br/> */}
 						</div>
 						<div className='one-song'>
 							<h3 className="song-title">This Is It</h3>
 							<iframe className="youtube-link" src="https://www.youtube.com/embed/5Vk0QhhUjtM" frameborder="10" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-							{/* <br/><br/><br/> */}
 						</div>
 						<div className='one-song'>
 							<h3 className="song-title">A Lightbulb Attached to His Head Lights Up</h3>
 							<iframe className="youtube-link" src="https://www.youtube.com/embed/q8iOnHRrHpk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-							{/* <br/><br/><br/> */}
 						</div>
 						<div className='one-song'>
 							<h3 className="song-title">Let's Have a Look In Here Why Don't We</h3>
 							<iframe className="youtube-link" src="https://www.youtube.com/embed/eKb4dW4DtT4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-							{/* <br/><br/><br/> */}
 						</div>
 						<div className='one-song'>
 							<h3 className="song-title">Steppin' Into Tomorrow</h3>
 							<iframe className="youtube-link" src="https://www.youtube.com/embed/99sKxIIpdBI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>						
-							{/* <br/><br/><br/> */}
 						</div>
 						<div className='one-song'>
 							<h3 className="song-title">Detour Through Here</h3>
 							<iframe className="youtube-link" src="https://www.youtube.com/embed/M-Y47CxSYvA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-							{/* <br/><br/><br/> */}
 						</div>
 						<div className='one-song'>
 							<h3 className="song-title">Is everyone ready to go? We're out of time</h3>
 							<iframe className="youtube-link" src="https://www.youtube.com/embed/34Gtb-B8H8Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-							{/* <br/><br/><br/> */}
 						</div>
 						<div className='one-song'>
 							<h3 className="song-title">ELF</h3>
 							<iframe className="youtube-link" src="https://www.youtube.com/embed/5MPArWYvhSI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-							{/* <br/><br/><br/> */}
 						</div>
 						<div className='one-song'>
 							<h3 className="song-title">Eye Eye Eye</h3>
 							<iframe className="youtube-link" src="https://www.youtube.com/embed/LN3_ks_yqj4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-							{/* <br/><br/><br/> */}
 						</div>
 						<div className='one-song'>
 							<h3 className="song-title">Mutating Jerk (the rate of change of acceleration with time)</h3>
 							<iframe className="youtube-link" src="https://www.youtube.com/embed/gzTUQMyjCyc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-							{/* <br/><br/><br/> */}
 						</div>
 						<div className='one-song'>
 							<h3 className="song-title">Knot What You Would Expect Then Enter The World</h3>
 							<iframe className="youtube-link" src="https://www.youtube.com/embed/t3zKP68Lsxk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-							{/* <br/><br/><br/> */}
 						</div>
 						<div className='one-song'>
 							<h3 className="song-title">Lady Day</h3>
 							<iframe className="youtube-link" src="https://www.youtube.com/embed/r14f9LdvYB4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-							{/* <br/><br/><br/> */}
 						</div>
 						<div className='one-song'>
 							<h3 className="song-title">Fimfasylm</h3>
 							<iframe className="youtube-link" src="https://www.youtube.com/embed/z8eE-f5Adak" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-							{/* <br/><br/><br/> */}
 						</div>
 						<div className='one-song'>
 							<h3 className="song-title">Jewels Strung On An As Yet Invisible Thread</h3>
 							<iframe className="youtube-link" src="https://www.youtube.com/embed/-S55T582KQI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-							{/* <br/><br/><br/> */}
 						</div>
 						<div className='one-song'>
 							<h3 className="song-title">Waving While Performing the Ol' In-Out</h3>
 							<iframe className="youtube-link" src="https://www.youtube.com/embed/uHHFL4B9X9k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-							{/* <br/><br/><br/> */}
 						</div>
 						<div className='one-song'>
 							<h3 className="song-title">Vexed</h3>
 							<iframe className="youtube-link" src="https://www.youtube.com/embed/12a4xSNXZtA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-							{/* <br/><br/><br/> */}
 						</div>
 						<div className='one-song'>
 							<h3 className="song-title">Rubiks Cuban</h3>
