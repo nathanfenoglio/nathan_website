@@ -52,9 +52,11 @@
 }
 
 .players{
+    flex: 1;
     color: yellow;
     font-size: 3vw;
     list-style-type: none;
+    /* margin-right: 10%; */
     /* text-align: center; */
 }
 
@@ -104,7 +106,7 @@
 
 .directions{
     color: aquamarine;
-    font-size: 2vw;
+    /* font-size: 2vw; */
 }
 
 .woo-logo{
@@ -186,6 +188,9 @@
         height: 23vw;
     }
 
+    .players {
+        margin-right: 10%;
+    }
     .audio-link{
         /* flex: 1 1 40%; */
         width: 90%;

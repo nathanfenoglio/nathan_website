@@ -193,7 +193,7 @@ export default class Music extends Component{
 					<p className='music-box'>
 						<div className='one-song'>
 							<h3 className="song-title">Reflection</h3>
-							<audio style={{marginBottom: "25%", marginTop: "25%" }} ref="audio_tag" src={ParallelRealities_Reflection} controls/>
+							<audio style={{ marginBottom: "25%", marginTop: "25%", width: "75%" }} ref="audio_tag" src={ParallelRealities_Reflection} controls/>
 						</div>
 						<div className='one-song'>
 							<h3 className="song-title">Give Me One Good Reason</h3>
@@ -233,8 +233,9 @@ export default class Music extends Component{
 						<li>Bass: Nathan Fenoglio</li>
 					</ul>
 					<br/><br/>
-					<iframe className="youtube-link" src="https://www.youtube.com/embed/Zp5jtLA8D2I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-					
+					<div className='one-song'>
+						<iframe className="youtube-link" src="https://www.youtube.com/embed/Zp5jtLA8D2I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+					</div>
 					<br/><br/><br/><br/>
 				</div>
 
@@ -246,22 +247,22 @@ export default class Music extends Component{
 					<br/><br/><br/>
 					<h2 className="album-title">Children of a Shattered Infinity</h2>
 					<img style={{ width: "37.5vw", width: "37.5vw" }} src={coasi_album_cover}></img>
-					<p className="directions">Click a link to listen to album</p>
+					<p className="directions" style={{ fontSize: "6vw" }}>Click a link to listen to album</p>
 					<a className="gen-link" target="_blank" rel="noopener noreferrer" href="https://wroughtofobsidian.bandcamp.com/album/children-of-a-shattered-infinity">Listen on bandcamp</a>
 					<br/>
 					<a className="gen-link" target="_blank" rel="noopener noreferrer" href="https://open.spotify.com/album/6Be7lXxBNAstVgzhiT42TL?si=RMauNV7VTMW0sQ57VdWTDQ">Listen on Spotify</a>
 					<br/>
 					<a className="gen-link" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/playlist?list=OLAK5uy_kqzjx5Noxy7umwbnLDkrYvGhfBoo_4zdI">Listen on YouTube</a>
-					<br/><br/><br/><br/>
+					<br/><br/>
 					<div className='one-song'>
 						<h2 className="album-title" style={{ marginTop: "10vw" }}>At Long Last</h2>
 						<iframe className="youtube-link" src="https://www.youtube.com/embed/2APEz7dNrDM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 					</div>
-					<br/><br/><br/><br/>
+					<br/><br/>
 
-					<p className="directions">Purchase Merch</p>
+					<p className="directions" style={{ fontSize: "6vw" }}>Purchase Merch</p>
 					<a className="gen-link" target="_blank" rel="noopener noreferrer" href="https://wroughtofobsidian.dizzyjam.com/">Buy Stuff</a>
-					<br/>
+					<br/><br/>
 					<a className="gen-link" target="_blank" rel="noopener noreferrer" href="https://wroughtofobsidian.bigcartel.com/">Buy Stuff</a>
 					<br/><br/><br/><br/>
 
