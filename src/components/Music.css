@@ -1,9 +1,34 @@
 .music-container-1{
-    /* display: flex; */
-    border: 0.5em dotted fuchsia;
-    margin-top: 10em;
-    width: auto;
-    overflow: hidden;
+    display: flex;
+    /* border: 0.5em dotted fuchsia; */
+    /* border: 0.5em dotted black; */
+    /* margin-top: 10em; */
+    margin-left: 20px;
+    margin-right: 20px;
+    /* width: auto; */
+    flex-direction: column;
+    width: 85%;
+    padding-left: 10%;
+    /* overflow: hidden; */
+}
+
+.music-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.one-song{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 40%;
+    /* background: #0a51cc; */
+    background: black;
+    margin: 25px;
+
+    /* width: 40%; */
+
 }
 
 .page-title{
@@ -30,7 +55,8 @@
 }
 
 .song-title{
-    margin-top: 2em;
+    /* margin-top: 2em; */
+    margin-top: 5%;
     text-decoration: underline overline;
     text-decoration-color: red;
     color: yellow;
@@ -38,13 +64,21 @@
 }
 
 .youtube-link{
-    width: 40vw;
+    /* width: 40vw; */
+    /* display: flex; */
+    /* flex: 1 1 40%; */
+    /* width: 100%; */
+    /* height: 500%; */
+    /* height: 500px; */
     height: 23vw;
 }
 
 .audio-link{
-    width: 40vw;
-    height: 7vw;    
+    flex: 1 1 40%;
+    width: 50%;
+    margin-left: 25%;
+    /* width: 40vw;
+    height: 7vw;     */
 }
 
 .gen-link{
@@ -63,9 +97,11 @@
     margin-bottom: 10vw;
 }
 .react-player{
-    padding-left: 5vw;
-    width: 40vw;
-    height: 23vw;
+    flex: 1 1 40%;
+    /* padding-left: 5vw; */
+    margin-left: 30%;
+    /* width: 40vw; */
+    /* height: 23vw; */
 
     /*
     align-items: center;
