@@ -40,7 +40,7 @@ const Home = () => {
             </div>
             <h2 style={{ marginTop: "5%" }}>Contact Me</h2>
             <div className='blah-blah-1'>
-                <p className='list'>nathanrfenoglio@gmail.com</p>
+                <p className='list' style={{marginTop: "5%"}}>nathanrfenoglio@gmail.com</p>
                 <a className="link" target="_blank" rel="noopener noreferrer" href="https://linkedin.com/in/nathan-fenoglio-b0a148a2">Linked In</a>
                 <a className="link" target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/nathan.fenoglio">Facebook</a>
             </div>
