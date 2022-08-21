@@ -90,6 +90,13 @@
     height: 7vw;     */
 }
 
+.audio-link-2{
+    flex: 1 1 40%;
+    width: 50%;
+    margin-left: 25%;
+    /* margin-bottom: 20%; */
+}
+
 .gen-link{
     font-size: 5vw;
     text-decoration: underline;
@@ -164,7 +171,7 @@
     }
         
 } */
-@media(max-width: 600px){
+@media(max-width: 800px){
     .youtube-link{
         /* width: 40vw; */
         /* display: flex; */
@@ -178,5 +185,24 @@
         margin-left: 18%;
         height: 23vw;
     }
-    
+
+    .audio-link{
+        /* flex: 1 1 40%; */
+        width: 90%;
+        /* margin-left: 5%; */
+        margin: 5%;
+        /* width: 40vw;
+        height: 7vw;     */
+    }
+    .audio-link-2{
+        flex: 1 1 40%;
+        width: 40%;
+        /* height: 100%; */
+        margin-bottom: 50%;
+        justify-content: start;
+        /* resize: horizontal; */
+        /* padding: 0%; */
+        height: 23vw;
+        /* margin: 0; */
+    }        
 }

@@ -107,9 +107,9 @@ export default class Music extends Component{
 						<div className='one-song'>
 							<h3 className="song-title">Rubiks Cuban</h3>
 							<iframe className="audio-link"
-								frameborder="0"
-								width="50vw"
-								height="152"
+								// frameborder="0"
+								// width="50vw"
+								// height="152"
 								src="https://drive.google.com/file/d/15CwM3d4vTSsdbxBjLVnU_ZIdm0irdMwN/preview?usp=sharing">
 							</iframe>
 							<br/><br/>
@@ -193,7 +193,7 @@ export default class Music extends Component{
 					<p className='music-box'>
 						<div className='one-song'>
 							<h3 className="song-title">Reflection</h3>
-							<audio className="audio-link" style={{marginBottom: "20%"}} ref="audio_tag" src={ParallelRealities_Reflection} controls/>
+							<audio style={{marginBottom: "25%", marginTop: "25%" }} ref="audio_tag" src={ParallelRealities_Reflection} controls/>
 						</div>
 						<div className='one-song'>
 							<h3 className="song-title">Give Me One Good Reason</h3>
@@ -243,7 +243,7 @@ export default class Music extends Component{
 					<img className="woo-logo" src={wooLogo}></img>
 					<br/>
 					<a className="gen-link" target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/wroughtofobsidian/">Facebook</a>
-					<br/><br/><br/><br/><br/><br/><br/><br/>
+					<br/><br/><br/>
 					<h2 className="album-title">Children of a Shattered Infinity</h2>
 					<img style={{ width: "37.5vw", width: "37.5vw" }} src={coasi_album_cover}></img>
 					<p className="directions">Click a link to listen to album</p>
@@ -253,9 +253,10 @@ export default class Music extends Component{
 					<br/>
 					<a className="gen-link" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/playlist?list=OLAK5uy_kqzjx5Noxy7umwbnLDkrYvGhfBoo_4zdI">Listen on YouTube</a>
 					<br/><br/><br/><br/>
-
-					<h2 className="album-title" style={{ marginTop: "10vw" }}>At Long Last</h2>
-					<iframe className="youtube-link" src="https://www.youtube.com/embed/2APEz7dNrDM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+					<div className='one-song'>
+						<h2 className="album-title" style={{ marginTop: "10vw" }}>At Long Last</h2>
+						<iframe className="youtube-link" src="https://www.youtube.com/embed/2APEz7dNrDM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+					</div>
 					<br/><br/><br/><br/>
 
 					<p className="directions">Purchase Merch</p>
@@ -265,13 +266,24 @@ export default class Music extends Component{
 					<br/><br/><br/><br/>
 
 					<h2 className="album-title">Video</h2>
-					<iframe className="youtube-link" src="https://www.youtube.com/embed/koSfXwUaQ5U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-					<iframe className="youtube-link" src="https://www.youtube.com/embed/gLxrwo5T2Oo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-					<iframe className="youtube-link" src="https://www.youtube.com/embed/ak2m4rUP_e0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-					<iframe className="youtube-link" src="https://www.youtube.com/embed/2RsH7-qshh0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-
-					<h2 className="album-title">Playthrough Videos</h2>
-					<iframe className="youtube-link" src="https://www.youtube.com/embed/3vUzfJl8VBw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+					<p className='music-box'>
+						<div className='one-song'>
+							<iframe className="youtube-link" src="https://www.youtube.com/embed/koSfXwUaQ5U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+						</div>
+						<div className='one-song'>
+							<iframe className="youtube-link" src="https://www.youtube.com/embed/gLxrwo5T2Oo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+						</div>
+						<div className='one-song'>
+							<iframe className="youtube-link" src="https://www.youtube.com/embed/ak2m4rUP_e0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+						</div>
+						<div className='one-song'>
+							<iframe className="youtube-link" src="https://www.youtube.com/embed/2RsH7-qshh0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+						</div>
+						<div className='one-song'>
+							<h2 className="album-title">Playthrough Videos</h2>
+							<iframe className="youtube-link" src="https://www.youtube.com/embed/3vUzfJl8VBw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+						</div>
+					</p>
 				</div>
 			</div>
 		)
