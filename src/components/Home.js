@@ -25,7 +25,7 @@ const Home = () => {
 
             <h2 style={{ marginTop: "5%" }}>Bass Playing</h2>
             <div className='blah-blah-1'>
-                <p className='category-description'>I have been playing electric bass for many years involving many styles such as prog, funk, fusion, hip hop, metal, and more</p>
+                <p className='category-description'>I have been playing electric bass for many years involving different styles such as prog, funk, fusion, hip hop, metal, and more</p>
                 <p className='category-description'>Check out some projects that I have worked on</p>
                 <p className='list'>Wrought of Obsidian <br/>Parallel Realities <br/>Harry Has a Head Like a Ping Pong Ball <br/> </p>
                 <Link className="link" to="/Music">Music</Link>
