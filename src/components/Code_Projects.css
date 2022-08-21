@@ -10,9 +10,65 @@
     color: white;
 }
 
-@media(max-width: 600px){
+.directions{
+    padding-top: 2vw;
+    color: aquamarine;
+    font-size: 3vw;
+}
+
+.comments{
+    color: hotpink;
+    font-size: 2vw;
+}
+
+.links{
+    color: crimson;
+    font-size: 6vw;
+    text-decoration: underline;
+    text-decoration-style: dashed;
+    text-decoration-color: aquamarine;
+    animation: animate 1.0s linear infinite;
+}
+
+.app-static-image{
+    width: 50vw;
+    height: 40vw;
+}
+
+.smaller-directions{
+    color: aqua;
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+@media(max-width: 800px){
     .page-title{
         font-size: 15vw;
         color: white;
     }
+    
+    .directions{
+        color: aquamarine;
+        font-size: 2vw;
+    }
+
+    .links{
+        color: crimson;
+        font-size: 6vw;
+        text-decoration: underline;
+        text-decoration-style: dashed;
+        text-decoration-color: aquamarine;
+        animation: animate 1.0s linear infinite;
+    }
+
+    .app-static-image{
+        width: 75vw;
+        height: 60vw;
+    }
+
+    .smaller-directions{
+        font-size: 3vw;
+    }
+
 }
+

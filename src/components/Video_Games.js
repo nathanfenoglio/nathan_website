@@ -40,6 +40,8 @@ export default class Video_Games extends Component{
 					<Link to="/Cubeland_Solution_Path" className="view-solution">View Cubeland Solution Path</Link>
 					<h3 className="spoiler-alert">Watch Playthrough</h3>
 					<iframe className="youtube-link" src="https://www.youtube.com/embed/ar7niKAHrWI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+					<br/>
+					<a className="links" target="_blank" rel="noopener noreferrer" href="https://github.com/nathanfenoglio/Escape-From-Underground-Terrestrial-Abyss">Check out code on GitHub</a>
 				</div>
 			</div>
 		)

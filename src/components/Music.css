@@ -1,13 +1,32 @@
 .music-container-1{
-    border: 0.5em dotted fuchsia;
-    margin-top: 10em;
-    width: auto;
-    overflow: hidden;
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    flex-direction: column;
+    width: 85%;
+    padding-left: 10%;
+}
+
+.music-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.one-song{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6); /* parameters are (red, green, blue, alpha) */
+    flex: 1 1 40%;
+    background: black;
+    margin: 25px;
 }
 
 .page-title{
     font-size: 10vw;
     color: white;
+    margin-top: 20px;
 }
 
 .band{
@@ -21,14 +40,14 @@
 }
 
 .players{
+    flex: 1;
     color: yellow;
     font-size: 3vw;
     list-style-type: none;
-    text-align: center;
 }
 
 .song-title{
-    margin-top: 2em;
+    margin-top: 5%;
     text-decoration: underline overline;
     text-decoration-color: red;
     color: yellow;
@@ -36,13 +55,19 @@
 }
 
 .youtube-link{
-    width: 40vw;
-    height: 23vw;
+    height: 300px;
 }
 
 .audio-link{
-    width: 40vw;
-    height: 7vw;    
+    flex: 1 1 40%;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.audio-link-2{
+    flex: 1 1 40%;
+    width: 50%;
+    margin-left: 25%;
 }
 
 .gen-link{
@@ -52,7 +77,6 @@
 
 .directions{
     color: aquamarine;
-    font-size: 2vw;
 }
 
 .woo-logo{
@@ -60,47 +84,31 @@
     height: 22.5vw;
     margin-bottom: 10vw;
 }
+.react-player{
+    flex: 1 1 40%;
+    margin-left: 30%;
+}
 
-/*conditional to check media and change stuff if less than 600px*/
-@media(max-width: 600px){
-    .page-title{
-        font-size: 15vw;
-        color: white;
-    }
-    
-    .band{
-        color: red;
-        font-size: 7.5vw;
-    }
-    
-    .album-title{
-        color: fuchsia;
-        font-size: 6vw;
-    }
-    
-    .players{
-        color: yellow;
-        font-size: 4.5vw;
-        list-style-type: none;
-    }
-    
-    .song-title{
-        margin-top: 3em;
-        margin-bottom: 1em;
-        text-decoration: underline overline;
-        text-decoration-color: red;
-        color: yellow;
-        font-size: 4.5vw;
-    }
-    
+@media(max-width: 800px){
     .youtube-link{
-        width: 60vw;
-        height: 40vw;
+        flex: 1;
+        margin-left: 18%;
+        height: 23vw;
     }
-    
+
+    .players {
+        margin-right: 10%;
+    }
+
     .audio-link{
-        width: 60vw;
-        height: 10.5vw;
+        width: 90%;
+        margin: 5%;
     }
-        
+    .audio-link-2{
+        flex: 1 1 40%;
+        width: 40%;
+        margin-bottom: 50%;
+        justify-content: start;
+        height: 23vw;
+    }        
 }

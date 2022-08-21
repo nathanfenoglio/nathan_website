@@ -6,6 +6,7 @@
 	align-items: center;
 	width: 100%;
 	position: fixed;
+	z-index: 1;
 	
 }
 
@@ -81,7 +82,11 @@
 		background: #6668f4;
 		left: 0;
 		opacity: 1;
-		height: 1200px;
+		/*for some reason the navbar items were too low and not able to be seen on mobile devices*/
+		/*at some point even though it had worked before*/
+		/*changed the height below and now it's visible again*/
+		/*height: 1200px;*/
+		height: 600px;
 		transition: all 0.5s ease;
 		z-index: 1;
 	}

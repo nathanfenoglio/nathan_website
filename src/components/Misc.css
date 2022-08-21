@@ -3,6 +3,9 @@
     margin-top: 10em;
     width: auto;
     overflow: hidden;
+    background-color: blueviolet;
+    width: 90%;
+    margin-left: 5%;
 }
 
 .page-title{
@@ -10,9 +13,36 @@
     color: white;
 }
 
+.links{
+    color: crimson;
+    font-size: 6vw;
+    text-decoration: underline;
+    text-decoration-style: dashed;
+    text-decoration-color: aquamarine;
+    animation: animate 1.0s linear infinite;
+}
+
+.comments{
+    /*padding-top: 2vw;*/
+    color: hotpink;
+    font-size: 6vw;
+}
+
+
 @media(max-width: 600px){
     .page-title{
         font-size: 15vw;
         color: white;
     }   
+
+    .links{
+        color: crimson;
+        font-size: 6vw;
+        text-decoration: underline;
+        text-decoration-style: dashed;
+        text-decoration-color: aquamarine;
+        animation: animate 1.0s linear infinite;
+    }
+
+    
 }
