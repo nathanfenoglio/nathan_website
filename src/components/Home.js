@@ -8,7 +8,7 @@ const Home = () => {
 		{window.scrollTo(0, 0)}
         <div className='home-content-box'>
             <h1>Nathan Fenoglio</h1>
-            <div className='blah-blah-1'>
+            <div className='blah-blah-1' style={{ backgroundColor: "#666" }}>
                 <p className='main-description'>Software Engineering, Bass Playing, Electronic Music Producing Explorer</p>
             </div>
 
@@ -37,8 +37,12 @@ const Home = () => {
                 <p className='category-description'>Have a listen</p>
                 <Link className="link" to="/Music">Music</Link>
                 <a className="link" target="_blank" rel="noopener noreferrer" href="https://soundcloud.com/flimmflamm23">Listen on Soundcloud</a>
-
-    
+            </div>
+            <h2 style={{ marginTop: "5%" }}>Contact Me</h2>
+            <div className='blah-blah-1'>
+                <p className='list'>nathanrfenoglio@gmail.com</p>
+                <a className="link" target="_blank" rel="noopener noreferrer" href="https://linkedin.com/in/nathan-fenoglio-b0a148a2">Linked In</a>
+                <a className="link" target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/nathan.fenoglio">Facebook</a>
             </div>
         </div>
     </div>
