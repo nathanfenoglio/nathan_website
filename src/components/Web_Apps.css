@@ -17,9 +17,7 @@
 }
 
 .comments{
-    /*padding-top: 2vw;*/
     color: hotpink;
-    /* font-size: 3vw; */
     font-size: 16vw;
 }
 
@@ -43,10 +41,6 @@
         color: white;
     }
     
-    /* .directions{
-        color: aquamarine;
-        font-size: 4vw;
-    } */
     .comments{
         font-size: 8vw;
     }

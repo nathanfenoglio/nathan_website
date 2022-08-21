@@ -45,9 +45,7 @@ export default class Code_Projects extends Component{
 					<p className="smaller-directions"></p>
 					<p className="smaller-directions"></p>
 					<p className="smaller-directions"></p>
-
 					<br/>
-
 				</div>
 
 			</div>

@@ -1,9 +1,5 @@
 import React, { Component } from 'react';
 import ReactPlayer from 'react-player';
-//import ParallelRealities_GiveMeOneGoodReason from "../Give_Me_One_Good_Reason.mp3";
-//import LiveAtAndysTrack1 from "../Harry_at_Andys_Track_01.m4a";
-//import LiveAtAndysTrack2 from "../Harry_at_Andys_Track_02.m4a";
-//import ParallelRealities_Heartbeat from "../Heartbeat.mp3";
 import ParallelRealities_Reflection from "../Reflection.mp3";
 import wooLogo from "../images/WOO_logo.png";
 import coasi_album_cover from "../images/ChildrenOfAShatteredInfinityCover.jpg";
@@ -94,9 +90,6 @@ export default class Music extends Component{
 						<div className='one-song'>
 							<h3 className="song-title">Rubiks Cuban</h3>
 							<iframe className="audio-link"
-								// frameborder="0"
-								// width="50vw"
-								// height="152"
 								src="https://drive.google.com/file/d/15CwM3d4vTSsdbxBjLVnU_ZIdm0irdMwN/preview?usp=sharing">
 							</iframe>
 							<br/><br/>
@@ -104,7 +97,6 @@ export default class Music extends Component{
 					</p>
 				</div>
 
-				{/* <div style={{ backgroundColor: "limegreen", width: "60vw", marginLeft: "20vw", marginBottom: "8vw", paddingBottom: "5vw", paddingTop: "5vw"}}> */}
 				<div style={{ backgroundColor: "limegreen", width: "auto", marginBottom: "5vw", paddingBottom: "5vw", paddingTop: "5vw"}}>
 					<div>
 					<h1 className="band">Harry Has a Head Like a Ping Pong Ball</h1>
@@ -165,7 +157,6 @@ export default class Music extends Component{
 					</p>
 				</div>
 
-				{/* <div style={{ backgroundColor: "peru", width: "60vw", marginLeft: "20vw", marginBottom: "8vw", paddingBottom: "5vw", paddingTop: "5vw"}}> */}
 				<div style={{ backgroundColor: "peru", width: "auto", marginBottom: "5vw", paddingTop: "5vw"}}>
 					<h1 className="band" style={{fontSize: "8vw"}}>Parallel Realities</h1>
 					<h2 className="album-title">Self Titled</h2>
@@ -226,7 +217,6 @@ export default class Music extends Component{
 					<br/><br/><br/><br/>
 				</div>
 
-				{/* <div style={{ backgroundColor: "black", width: "60vw", marginLeft: "20vw", marginBottom: "8vw", paddingBottom: "5vw", paddingTop: "5vw"}}> */}
 				<div style={{ backgroundColor: "black", width: "auto", marginBottom: "5vw", paddingTop: "5vw"}}>
 					<img className="woo-logo" src={wooLogo}></img>
 					<br/>
