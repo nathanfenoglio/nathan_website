@@ -5,7 +5,7 @@ import './Home.css';
 const Home = () => {
   return (
     <div className='home-container'>
-        {/* <br/><br/><br/><br/><br/><br/><br/><br/><br/> */}
+		{window.scrollTo(0, 0)}
         <div className='home-content-box'>
             <h1>Nathan Fenoglio</h1>
             <div className='blah-blah-1'>
