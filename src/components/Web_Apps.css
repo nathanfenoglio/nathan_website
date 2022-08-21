@@ -13,13 +13,14 @@
 .directions{
     padding-top: 2vw;
     color: aquamarine;
-    font-size: 3vw;
+    font-size: 4vw;
 }
 
 .comments{
     /*padding-top: 2vw;*/
     color: hotpink;
-    font-size: 2vw;
+    /* font-size: 3vw; */
+    font-size: 16vw;
 }
 
 .links{
@@ -36,15 +37,18 @@
     height: 40vw;
 }
 
-@media(max-width: 600px){
+@media(max-width: 800px){
     .page-title{
         font-size: 15vw;
         color: white;
     }
     
-    .directions{
+    /* .directions{
         color: aquamarine;
-        font-size: 2vw;
+        font-size: 4vw;
+    } */
+    .comments{
+        font-size: 8vw;
     }
 
     .links{

@@ -3,6 +3,9 @@
     margin-top: 10em;
     width: auto;
     overflow: hidden;
+    background-color: blueviolet;
+    width: 90%;
+    margin-left: 5%;
 }
 
 .page-title{
@@ -22,7 +25,7 @@
 .comments{
     /*padding-top: 2vw;*/
     color: hotpink;
-    font-size: 2vw;
+    font-size: 6vw;
 }
 
 
