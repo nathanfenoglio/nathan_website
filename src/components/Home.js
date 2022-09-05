@@ -44,8 +44,6 @@ const Home = () => {
                 <a className="link" target="_blank" rel="noopener noreferrer" href="https://linkedin.com/in/nathan-fenoglio-b0a148a2">Linked In</a>
                 <a className="link" target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/nathan.fenoglio">Facebook</a>
             </div>
-            {/* just messing */}
-            <h2 style={{ marginTop: "5%" }}>Flam</h2>
 
         </div>
     </div>
