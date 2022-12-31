@@ -8,7 +8,7 @@ export default class Video_Games extends Component{
 		return(
 			<div className="video-games-container">
 				{window.scrollTo(0, 0)}
-				<h1 className="page-title">Video Games</h1>
+				<h1 className="page-title">Video Games Flim to the Flam Prob Won't Ever See This Because You Stopped Using AWS and are using google firebase instead UNLESS YOU PULL FROM THE GOOGLE FIREBASE VERSION OF THIS IN THE OTHER DIRECTORY AND BUILD AND DEPLOY</h1>
 				<br/><br/><br/>
 				<h1 className="game-title">Escape From Underground Terrestrial Abyss</h1>
 				<img className="game-static-image" src={title_screenshot_escape_from_uta}/>
