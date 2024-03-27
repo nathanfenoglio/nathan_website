@@ -1,0 +1,2 @@
+you're now working in the firebase directory
+c/School/CSE_3330_Databases/website_messing/firebase_nathan_website/nathan_website
